@@ -1,0 +1,1001 @@
+applicant_id,age,gender,region,income_monthly,existing_loans,credit_score,loan_amount_requested,medical_condition,employment_type,approved
+1,60,Male,Semi-Urban,52769,0,747,246753,Cancer,Unemployed,1
+2,50,Female,Rural,55118,2,445,391609,General,Self-Employed,0
+3,36,Male,Semi-Urban,92703,1,687,270934,General,Self-Employed,1
+4,64,Male,Rural,109948,3,548,276599,Cardiac,Salaried,0
+5,29,Male,Urban,29625,3,825,163221,Cardiac,Daily Wage,0
+6,42,Male,Rural,112724,3,761,349477,Cardiac,Self-Employed,0
+7,60,Female,Urban,35076,2,312,176457,General,Salaried,1
+8,40,Male,Urban,72805,0,683,328720,Orthopedic,Salaried,1
+9,44,Male,Semi-Urban,52605,3,698,169875,Cancer,Salaried,1
+10,32,Male,Rural,92565,0,318,351549,Cancer,Daily Wage,0
+11,32,Male,Rural,96509,2,790,406144,Orthopedic,Daily Wage,0
+12,45,Female,Urban,47121,1,718,81601,Orthopedic,Self-Employed,1
+13,57,Male,Urban,73101,1,636,380090,Cancer,Daily Wage,0
+14,61,Male,Rural,39433,1,718,364260,Neurological,Salaried,1
+15,45,Male,Urban,51309,3,421,154186,Cardiac,Self-Employed,1
+16,24,Female,Semi-Urban,75468,1,731,375038,Cardiac,Self-Employed,1
+17,43,Male,Rural,52254,3,343,215707,Cancer,Salaried,0
+18,23,Female,Urban,75293,2,616,319609,Orthopedic,Daily Wage,0
+19,45,Female,Urban,104258,2,680,106754,Neurological,Salaried,1
+20,51,Male,Urban,45853,3,444,279047,Cancer,Salaried,1
+21,59,Male,Urban,46405,0,626,142850,Cardiac,Self-Employed,1
+22,23,Male,Rural,74652,1,662,421909,General,Self-Employed,1
+23,42,Male,Urban,51527,1,349,266191,Orthopedic,Self-Employed,1
+24,54,Female,Rural,85227,1,364,404835,General,Salaried,0
+25,33,Female,Urban,8492,3,654,88871,Cancer,Daily Wage,0
+26,43,Male,Rural,101418,2,463,243946,Cardiac,Self-Employed,0
+27,46,Male,Urban,16811,1,440,341655,Neurological,Self-Employed,0
+28,48,Male,Urban,101344,2,427,393104,General,Unemployed,1
+29,63,Female,Urban,32272,1,697,492037,Neurological,Daily Wage,1
+30,49,Male,Semi-Urban,101935,1,762,377920,Cardiac,Salaried,1
+31,37,Male,Semi-Urban,80010,3,486,299200,General,Daily Wage,0
+32,36,Female,Rural,100492,0,489,251239,Neurological,Salaried,0
+33,24,Female,Urban,55153,3,687,356606,Neurological,Salaried,1
+34,58,Male,Urban,116042,1,728,284453,General,Salaried,1
+35,28,Female,Semi-Urban,62110,1,583,82574,Cardiac,Unemployed,0
+36,42,Female,Urban,21979,0,536,152072,Neurological,Salaried,1
+37,30,Male,Urban,118059,2,493,485126,Cancer,Self-Employed,1
+38,60,Male,Rural,116101,2,586,254603,General,Salaried,0
+39,39,Male,Rural,36328,1,435,206258,Orthopedic,Daily Wage,0
+40,25,Male,Rural,20867,2,470,203885,Orthopedic,Self-Employed,0
+41,46,Female,Semi-Urban,67234,1,458,259884,Cardiac,Self-Employed,0
+42,35,Female,Urban,33851,0,500,266597,Cancer,Salaried,1
+43,30,Male,Urban,39279,0,786,390426,Neurological,Daily Wage,1
+44,47,Male,Semi-Urban,104063,1,803,159779,Orthopedic,Unemployed,1
+45,23,Male,Rural,81402,0,670,68557,Cardiac,Self-Employed,1
+46,41,Male,Urban,23449,3,402,209132,Cancer,Self-Employed,0
+47,49,Female,Urban,84221,3,424,384248,Cancer,Unemployed,1
+48,28,Male,Urban,97080,0,612,281977,Cardiac,Salaried,1
+49,29,Male,Semi-Urban,13451,1,757,187152,Cardiac,Daily Wage,0
+50,56,Male,Rural,95178,1,529,194926,Neurological,Daily Wage,0
+51,35,Female,Semi-Urban,49316,0,496,434157,Cardiac,Salaried,1
+52,38,Male,Urban,71064,2,722,248767,Neurological,Self-Employed,1
+53,57,Female,Rural,71761,3,470,208097,Neurological,Salaried,0
+54,61,Male,Semi-Urban,113490,2,681,234054,General,Self-Employed,1
+55,25,Female,Urban,46870,1,472,91081,Cancer,Self-Employed,1
+56,23,Female,Urban,104566,1,752,447584,Cancer,Salaried,1
+57,27,Male,Urban,38873,2,649,280693,Cancer,Self-Employed,1
+58,63,Male,Urban,66627,0,793,431325,General,Salaried,1
+59,25,Female,Rural,74155,2,303,339238,Neurological,Salaried,0
+60,50,Female,Urban,107186,2,392,489256,Neurological,Salaried,1
+61,39,Male,Rural,33372,3,305,378910,Cardiac,Daily Wage,0
+62,47,Male,Urban,11642,3,587,395197,General,Salaried,1
+63,55,Female,Urban,36001,2,445,205063,Cardiac,Daily Wage,0
+64,31,Male,Urban,42064,2,723,313445,General,Self-Employed,1
+65,57,Male,Urban,102826,1,756,209682,Cardiac,Salaried,1
+66,35,Female,Urban,22122,3,501,131463,Orthopedic,Daily Wage,0
+67,52,Male,Rural,32820,3,511,215750,Cancer,Self-Employed,0
+68,36,Male,Semi-Urban,76431,1,305,336610,Cancer,Self-Employed,0
+69,29,Male,Semi-Urban,63745,0,675,484091,Neurological,Salaried,1
+70,35,Male,Urban,58081,3,746,76081,Orthopedic,Salaried,1
+71,44,Male,Urban,78902,3,405,74354,Cancer,Salaried,1
+72,61,Female,Urban,16711,0,700,143297,Neurological,Salaried,1
+73,42,Male,Semi-Urban,93132,3,395,330444,Orthopedic,Salaried,1
+74,37,Male,Urban,26793,3,687,114384,Cancer,Salaried,1
+75,39,Male,Urban,16199,0,751,407171,Cardiac,Salaried,1
+76,45,Male,Semi-Urban,84253,0,715,171684,General,Salaried,1
+77,47,Female,Urban,44191,2,803,373036,Orthopedic,Salaried,1
+78,46,Male,Urban,18211,1,753,85525,Neurological,Salaried,1
+79,62,Male,Urban,119086,1,590,469748,Orthopedic,Unemployed,1
+80,50,Female,Rural,71069,0,833,56464,Neurological,Salaried,1
+81,36,Male,Semi-Urban,96896,0,492,66562,Orthopedic,Self-Employed,0
+82,22,Male,Urban,64746,3,449,419536,Neurological,Salaried,1
+83,46,Male,Urban,29542,2,814,105514,Cancer,Unemployed,1
+84,28,Male,Rural,39312,2,692,425572,Cardiac,Salaried,1
+85,30,Male,Semi-Urban,53242,0,615,162564,Cancer,Unemployed,0
+86,45,Male,Urban,109971,3,375,420191,Cardiac,Self-Employed,1
+87,22,Female,Rural,101783,3,569,82634,Cancer,Salaried,0
+88,29,Male,Urban,95893,1,524,312204,Cancer,Daily Wage,0
+89,45,Male,Semi-Urban,63388,1,829,321413,Orthopedic,Self-Employed,1
+90,32,Female,Semi-Urban,114581,3,412,244215,General,Salaried,1
+91,38,Male,Urban,35691,1,550,73065,Neurological,Daily Wage,0
+92,29,Female,Rural,85960,0,532,315039,Neurological,Unemployed,0
+93,56,Male,Semi-Urban,92388,3,382,393003,Neurological,Self-Employed,0
+94,56,Male,Semi-Urban,30601,1,424,193424,Cardiac,Salaried,1
+95,54,Female,Urban,26020,2,474,492953,Neurological,Daily Wage,0
+96,26,Male,Urban,16155,3,368,154127,Neurological,Self-Employed,0
+97,63,Male,Urban,77119,3,346,146426,Orthopedic,Daily Wage,0
+98,60,Male,Semi-Urban,89051,2,555,475232,Cancer,Self-Employed,0
+99,62,Male,Urban,44777,0,329,242376,Neurological,Salaried,1
+100,49,Female,Semi-Urban,27710,2,580,61962,General,Unemployed,0
+101,28,Male,Semi-Urban,116714,3,536,83302,Neurological,Salaried,1
+102,30,Male,Urban,32532,0,547,397526,Cardiac,Salaried,1
+103,29,Male,Semi-Urban,26601,1,667,54011,Cardiac,Self-Employed,1
+104,33,Female,Urban,71227,1,794,441860,Cardiac,Self-Employed,1
+105,55,Male,Rural,12967,1,324,69782,Neurological,Salaried,0
+106,54,Female,Urban,92289,3,789,248763,Orthopedic,Daily Wage,1
+107,44,Male,Urban,28022,2,793,170654,General,Salaried,1
+108,45,Female,Urban,51463,0,613,482941,Neurological,Salaried,1
+109,58,Female,Urban,82671,1,674,59196,Orthopedic,Daily Wage,1
+110,56,Female,Semi-Urban,13722,0,324,93459,Orthopedic,Salaried,0
+111,61,Female,Semi-Urban,35413,3,633,137245,Neurological,Salaried,1
+112,43,Male,Semi-Urban,100772,1,654,128863,Neurological,Salaried,1
+113,48,Male,Urban,89050,3,415,435350,Orthopedic,Unemployed,1
+114,56,Male,Urban,117432,2,347,300463,Orthopedic,Salaried,1
+115,22,Male,Urban,110748,3,398,413154,Orthopedic,Salaried,1
+116,56,Male,Semi-Urban,113922,3,758,82769,Neurological,Self-Employed,1
+117,58,Male,Rural,93867,2,822,419673,Orthopedic,Self-Employed,0
+118,35,Male,Urban,91596,0,704,306433,Cardiac,Salaried,1
+119,24,Male,Urban,74732,2,513,74700,Neurological,Self-Employed,1
+120,22,Female,Semi-Urban,20297,2,802,296864,Cardiac,Salaried,1
+121,26,Male,Rural,76323,3,747,261428,Cancer,Unemployed,0
+122,47,Female,Semi-Urban,31816,0,557,281237,Neurological,Salaried,1
+123,35,Female,Rural,48695,1,420,317413,Cancer,Salaried,0
+124,60,Female,Urban,27702,2,353,433775,Orthopedic,Salaried,1
+125,48,Female,Urban,33242,0,630,356024,Orthopedic,Salaried,1
+126,30,Female,Rural,63841,2,540,164003,General,Self-Employed,0
+127,36,Female,Semi-Urban,75712,2,829,189392,Orthopedic,Salaried,1
+128,36,Female,Urban,93663,2,782,99589,Cancer,Salaried,1
+129,47,Male,Semi-Urban,115096,2,486,300606,Orthopedic,Daily Wage,0
+130,63,Male,Rural,100764,3,561,257348,Neurological,Self-Employed,0
+131,34,Male,Semi-Urban,61574,0,663,85897,Orthopedic,Salaried,1
+132,53,Male,Semi-Urban,93744,0,790,239637,General,Salaried,1
+133,60,Female,Urban,36482,0,730,212002,Orthopedic,Salaried,1
+134,53,Female,Semi-Urban,17171,2,538,238305,Cancer,Salaried,0
+135,25,Female,Semi-Urban,108755,3,603,263893,Cancer,Salaried,1
+136,51,Male,Rural,106932,2,597,326524,Orthopedic,Self-Employed,0
+137,58,Female,Rural,116125,2,375,257968,Cancer,Daily Wage,0
+138,44,Female,Rural,114082,0,632,120934,Cancer,Salaried,0
+139,60,Female,Urban,11696,2,773,105830,General,Salaried,1
+140,36,Female,Semi-Urban,28058,1,582,317673,Neurological,Salaried,0
+141,64,Female,Semi-Urban,28313,2,371,302364,General,Salaried,0
+142,50,Male,Semi-Urban,27149,1,562,406742,Cardiac,Salaried,0
+143,57,Female,Semi-Urban,61521,2,311,283294,General,Unemployed,0
+144,34,Male,Rural,53740,3,440,132987,Orthopedic,Self-Employed,0
+145,53,Male,Urban,114611,3,316,99178,Neurological,Unemployed,1
+146,28,Female,Semi-Urban,12956,0,362,188009,Orthopedic,Daily Wage,0
+147,43,Male,Urban,83731,2,552,434096,Cardiac,Self-Employed,1
+148,49,Female,Urban,90612,1,764,89886,Neurological,Self-Employed,1
+149,23,Male,Semi-Urban,74641,1,675,99699,Cancer,Salaried,1
+150,63,Female,Semi-Urban,71811,2,819,126396,General,Self-Employed,1
+151,27,Male,Urban,60160,1,389,140678,Orthopedic,Unemployed,1
+152,49,Female,Urban,59313,3,474,75279,Cardiac,Salaried,1
+153,49,Female,Semi-Urban,71232,1,375,481322,Cancer,Daily Wage,0
+154,41,Male,Urban,23417,0,699,160776,General,Salaried,1
+155,51,Male,Urban,32729,3,370,151444,Cancer,Daily Wage,0
+156,32,Female,Urban,38099,3,479,418444,General,Unemployed,1
+157,49,Male,Urban,106134,3,423,163793,Neurological,Self-Employed,1
+158,46,Male,Urban,37961,2,680,428422,Cancer,Self-Employed,1
+159,60,Male,Urban,20602,2,592,260809,Cancer,Self-Employed,0
+160,54,Male,Urban,17256,3,494,221616,Cancer,Daily Wage,0
+161,22,Female,Rural,94120,2,527,415391,Neurological,Unemployed,0
+162,48,Female,Semi-Urban,42681,1,730,292262,Cardiac,Daily Wage,1
+163,34,Male,Semi-Urban,99328,2,735,58997,General,Self-Employed,1
+164,62,Male,Urban,95440,2,760,156102,Cancer,Self-Employed,1
+165,24,Female,Urban,72789,3,320,397855,Neurological,Daily Wage,0
+166,60,Male,Semi-Urban,51361,0,363,428189,Cardiac,Self-Employed,0
+167,27,Male,Urban,72503,0,464,90860,General,Daily Wage,0
+168,29,Female,Urban,42540,0,326,315369,Neurological,Self-Employed,1
+169,48,Female,Semi-Urban,34536,1,610,160114,General,Salaried,1
+170,30,Female,Semi-Urban,92700,2,584,163218,Cancer,Salaried,1
+171,58,Female,Urban,71043,0,580,412908,Cardiac,Salaried,1
+172,54,Male,Urban,86532,3,463,157041,Neurological,Salaried,1
+173,63,Female,Semi-Urban,64575,0,523,424368,Cardiac,Salaried,1
+174,45,Male,Urban,10871,0,445,375800,Cancer,Self-Employed,0
+175,36,Male,Semi-Urban,54002,2,329,495096,Cardiac,Salaried,1
+176,53,Male,Semi-Urban,57812,2,344,242150,Cardiac,Salaried,1
+177,53,Male,Rural,30626,2,770,126290,Orthopedic,Daily Wage,0
+178,45,Female,Urban,67979,1,333,106633,Cardiac,Unemployed,1
+179,62,Male,Rural,84057,1,726,338799,General,Daily Wage,0
+180,33,Male,Semi-Urban,116946,0,520,171118,Neurological,Unemployed,0
+181,60,Male,Urban,74668,2,833,224673,Orthopedic,Self-Employed,1
+182,23,Male,Urban,107003,0,666,53114,Neurological,Salaried,1
+183,24,Female,Semi-Urban,88070,3,849,338646,Neurological,Self-Employed,1
+184,58,Male,Urban,97390,3,415,99768,Cancer,Daily Wage,0
+185,38,Female,Urban,50998,2,538,360272,Cancer,Salaried,1
+186,23,Male,Urban,71814,2,634,463244,Orthopedic,Salaried,1
+187,23,Male,Rural,112601,3,740,498781,Cancer,Daily Wage,0
+188,49,Female,Semi-Urban,53607,2,447,133123,Cancer,Salaried,1
+189,44,Male,Semi-Urban,15812,1,308,158255,Cancer,Self-Employed,0
+190,58,Female,Urban,69844,1,587,216405,Neurological,Salaried,1
+191,53,Male,Urban,78093,2,687,53174,Orthopedic,Self-Employed,1
+192,54,Male,Semi-Urban,10179,3,349,167769,Neurological,Self-Employed,0
+193,22,Female,Urban,51798,0,816,347542,General,Salaried,1
+194,40,Male,Urban,82601,2,577,479145,Neurological,Salaried,1
+195,23,Male,Semi-Urban,16275,2,599,185393,General,Self-Employed,0
+196,47,Female,Rural,58574,0,434,435693,Cardiac,Daily Wage,0
+197,53,Male,Semi-Urban,55857,2,446,277043,Cardiac,Daily Wage,0
+198,27,Female,Semi-Urban,109484,0,789,292580,General,Self-Employed,1
+199,53,Male,Rural,28700,3,777,236493,General,Daily Wage,0
+200,25,Female,Urban,47464,1,458,122635,Neurological,Salaried,1
+201,32,Female,Semi-Urban,50351,3,683,335904,General,Salaried,1
+202,38,Female,Rural,101330,1,462,454576,Orthopedic,Salaried,0
+203,59,Female,Urban,102319,0,740,191385,Cardiac,Self-Employed,1
+204,45,Male,Semi-Urban,90534,1,488,442818,Cardiac,Salaried,1
+205,26,Female,Semi-Urban,21869,3,714,292878,General,Salaried,1
+206,55,Male,Semi-Urban,68315,1,638,267070,Cancer,Self-Employed,0
+207,27,Male,Semi-Urban,118061,0,480,449017,Cancer,Daily Wage,0
+208,43,Male,Rural,101688,1,587,326274,General,Salaried,0
+209,32,Male,Semi-Urban,28954,2,486,457487,Orthopedic,Salaried,0
+210,37,Male,Urban,39555,3,437,459291,Cancer,Salaried,1
+211,54,Female,Rural,71353,2,429,419359,General,Salaried,0
+212,30,Female,Urban,90190,0,493,200056,Orthopedic,Self-Employed,1
+213,27,Female,Urban,53026,1,615,400239,Orthopedic,Salaried,1
+214,37,Male,Urban,108772,2,443,373086,Neurological,Self-Employed,1
+215,50,Female,Urban,54976,2,315,193933,Orthopedic,Daily Wage,0
+216,24,Male,Urban,88578,1,601,148970,Cancer,Salaried,1
+217,41,Male,Rural,99502,1,722,132203,Cancer,Unemployed,1
+218,57,Male,Semi-Urban,117850,3,544,242319,General,Salaried,1
+219,40,Male,Semi-Urban,53095,2,406,250173,General,Salaried,1
+220,47,Female,Urban,22270,2,387,202049,Orthopedic,Salaried,1
+221,24,Male,Rural,38908,0,428,493833,Cardiac,Salaried,0
+222,40,Male,Rural,23523,3,640,267726,Neurological,Salaried,0
+223,41,Male,Semi-Urban,70433,0,303,400321,Cardiac,Salaried,1
+224,53,Male,Urban,55068,2,626,122902,Orthopedic,Daily Wage,0
+225,28,Male,Urban,27991,0,709,142172,Orthopedic,Unemployed,1
+226,62,Female,Urban,18775,2,605,196702,Cardiac,Self-Employed,0
+227,54,Male,Urban,85801,2,524,70056,Neurological,Salaried,1
+228,61,Male,Urban,92995,0,647,188454,Cardiac,Self-Employed,1
+229,60,Male,Rural,69250,0,620,105739,General,Self-Employed,0
+230,39,Female,Urban,24673,1,480,393829,Cancer,Daily Wage,0
+231,61,Female,Urban,35056,1,685,98639,General,Daily Wage,1
+232,22,Female,Urban,14614,1,407,489257,Cancer,Daily Wage,0
+233,32,Female,Urban,109556,2,830,313136,Orthopedic,Salaried,1
+234,49,Male,Urban,15415,0,709,122394,Neurological,Self-Employed,1
+235,46,Male,Urban,96691,3,595,379801,Cardiac,Salaried,1
+236,44,Female,Urban,51884,2,470,339304,Neurological,Unemployed,1
+237,52,Female,Semi-Urban,24964,3,630,357300,Cardiac,Salaried,0
+238,51,Female,Rural,45726,0,792,232447,General,Salaried,1
+239,63,Female,Urban,45044,2,494,398586,General,Salaried,1
+240,56,Female,Urban,65149,3,311,200644,Cardiac,Daily Wage,0
+241,28,Female,Rural,45544,3,494,430069,Neurological,Salaried,0
+242,37,Female,Urban,57976,1,789,54136,Cardiac,Salaried,1
+243,47,Female,Urban,40252,1,481,111868,Orthopedic,Unemployed,1
+244,23,Female,Rural,11832,1,615,394407,General,Unemployed,0
+245,22,Female,Urban,98811,2,329,344311,Orthopedic,Salaried,1
+246,33,Male,Semi-Urban,88437,0,395,160957,General,Salaried,1
+247,26,Female,Semi-Urban,111749,0,680,65479,General,Daily Wage,1
+248,58,Male,Urban,42148,1,743,169392,Cancer,Unemployed,1
+249,53,Male,Urban,69240,1,597,212448,Orthopedic,Self-Employed,1
+250,30,Female,Semi-Urban,116169,1,660,185895,Orthopedic,Self-Employed,1
+251,62,Male,Urban,96454,3,673,306228,Cancer,Salaried,1
+252,56,Male,Urban,93076,1,602,251528,Neurological,Daily Wage,0
+253,40,Male,Semi-Urban,85116,3,720,331729,Orthopedic,Self-Employed,1
+254,37,Male,Semi-Urban,61459,0,545,284847,Cardiac,Self-Employed,0
+255,24,Female,Urban,46402,2,536,460488,Cancer,Salaried,1
+256,41,Male,Rural,65727,2,833,338763,Orthopedic,Unemployed,0
+257,45,Male,Urban,46578,2,484,387213,Neurological,Self-Employed,1
+258,54,Male,Rural,98453,2,767,352039,Orthopedic,Salaried,1
+259,45,Female,Semi-Urban,30318,3,662,315864,General,Self-Employed,1
+260,32,Female,Semi-Urban,83715,3,582,331411,Cardiac,Self-Employed,0
+261,29,Male,Urban,85787,1,635,196768,Cancer,Self-Employed,1
+262,57,Male,Rural,119435,3,461,211040,General,Daily Wage,0
+263,59,Male,Urban,93029,1,459,365508,Neurological,Self-Employed,1
+264,61,Female,Semi-Urban,28466,1,773,466561,General,Unemployed,1
+265,41,Female,Urban,103742,2,621,101567,General,Salaried,1
+266,56,Male,Urban,53475,3,311,141229,Neurological,Salaried,1
+267,46,Male,Urban,68142,3,723,462601,General,Salaried,1
+268,56,Male,Rural,93160,1,372,249316,Cancer,Self-Employed,0
+269,46,Female,Rural,34564,1,500,246497,Orthopedic,Self-Employed,0
+270,50,Male,Urban,30412,0,821,390662,General,Daily Wage,1
+271,39,Male,Urban,101526,0,804,132844,Cancer,Daily Wage,1
+272,39,Male,Semi-Urban,59001,1,338,213991,Orthopedic,Self-Employed,0
+273,23,Male,Urban,65649,0,359,140697,Orthopedic,Unemployed,1
+274,56,Female,Urban,68957,0,620,107196,General,Salaried,1
+275,37,Male,Semi-Urban,43517,1,734,165600,Cancer,Daily Wage,1
+276,62,Female,Semi-Urban,21156,1,707,150625,General,Salaried,1
+277,57,Female,Rural,31064,3,685,443711,Neurological,Self-Employed,0
+278,54,Male,Urban,33711,1,377,356899,Orthopedic,Daily Wage,0
+279,25,Male,Urban,38106,1,493,83324,General,Self-Employed,1
+280,54,Female,Semi-Urban,73458,2,584,391073,Orthopedic,Salaried,1
+281,35,Male,Semi-Urban,24589,3,826,444768,Cancer,Salaried,1
+282,42,Male,Semi-Urban,97272,3,823,101272,Cardiac,Self-Employed,1
+283,41,Female,Semi-Urban,94511,3,455,479069,General,Daily Wage,0
+284,29,Male,Urban,109754,2,639,299264,General,Salaried,1
+285,28,Male,Rural,15214,1,424,213996,Orthopedic,Unemployed,0
+286,24,Male,Urban,104117,3,579,386606,Cancer,Salaried,1
+287,38,Female,Urban,93731,3,427,277459,Neurological,Self-Employed,1
+288,54,Male,Semi-Urban,118118,0,613,204961,Cancer,Daily Wage,0
+289,33,Male,Urban,35127,3,631,286538,General,Self-Employed,1
+290,43,Male,Urban,13141,1,449,104675,Neurological,Unemployed,0
+291,43,Male,Rural,36884,1,753,123591,Cancer,Self-Employed,1
+292,51,Male,Urban,98421,0,335,203706,Cardiac,Self-Employed,1
+293,59,Male,Semi-Urban,10708,3,719,344507,Orthopedic,Salaried,1
+294,59,Male,Urban,26375,3,321,244824,Cancer,Salaried,1
+295,29,Male,Semi-Urban,23088,3,505,389148,Cancer,Salaried,0
+296,48,Male,Urban,65615,2,655,499614,Cardiac,Daily Wage,1
+297,48,Male,Urban,118138,3,739,279530,General,Salaried,1
+298,55,Male,Rural,53046,1,395,352862,Orthopedic,Salaried,0
+299,42,Male,Semi-Urban,18014,1,463,163627,Cancer,Salaried,0
+300,51,Female,Urban,72425,2,447,263988,Neurological,Salaried,1
+301,54,Male,Urban,11273,2,829,339014,Cancer,Salaried,1
+302,49,Male,Rural,55135,3,593,87394,Orthopedic,Daily Wage,0
+303,54,Male,Semi-Urban,110842,0,494,364201,Cancer,Daily Wage,0
+304,26,Female,Semi-Urban,38881,2,779,129795,Cardiac,Daily Wage,0
+305,40,Female,Semi-Urban,105022,2,422,392553,Cancer,Daily Wage,0
+306,25,Male,Urban,86077,3,699,325160,Cancer,Salaried,1
+307,56,Male,Urban,16712,3,751,92137,Neurological,Daily Wage,0
+308,38,Female,Semi-Urban,82704,2,403,443369,Cardiac,Salaried,1
+309,49,Male,Urban,60874,0,761,188925,Cardiac,Salaried,1
+310,51,Male,Urban,77087,2,695,62379,Cancer,Self-Employed,1
+311,50,Male,Rural,20297,3,636,459008,Neurological,Salaried,0
+312,27,Male,Semi-Urban,117269,3,441,171169,Cancer,Daily Wage,0
+313,56,Female,Semi-Urban,35128,2,616,219439,Cancer,Salaried,1
+314,62,Female,Semi-Urban,76368,0,826,199172,Orthopedic,Daily Wage,1
+315,58,Male,Semi-Urban,102019,2,700,176082,Orthopedic,Self-Employed,1
+316,45,Male,Urban,95599,2,609,425233,Neurological,Salaried,1
+317,50,Female,Urban,96499,3,794,61049,General,Daily Wage,1
+318,52,Female,Urban,86958,0,408,444002,Orthopedic,Salaried,1
+319,56,Female,Urban,40920,1,671,211771,General,Self-Employed,1
+320,54,Female,Semi-Urban,19156,0,505,434928,Cardiac,Salaried,0
+321,42,Female,Urban,19108,2,342,359835,Orthopedic,Self-Employed,0
+322,53,Female,Urban,39845,2,544,218112,Orthopedic,Self-Employed,1
+323,44,Male,Urban,10800,2,586,299527,Neurological,Salaried,1
+324,54,Male,Urban,111614,0,654,274062,General,Unemployed,1
+325,24,Female,Urban,50712,3,775,107986,Orthopedic,Daily Wage,1
+326,39,Male,Urban,10610,2,382,481978,Orthopedic,Daily Wage,0
+327,46,Female,Urban,85603,2,409,204672,Neurological,Daily Wage,0
+328,63,Male,Urban,41872,0,489,406918,Neurological,Salaried,1
+329,52,Male,Urban,18728,1,550,271849,General,Self-Employed,0
+330,24,Male,Semi-Urban,103102,1,590,463026,Cardiac,Salaried,1
+331,61,Male,Urban,103319,3,500,266775,Cardiac,Salaried,1
+332,45,Female,Urban,28583,3,625,155315,Cancer,Unemployed,0
+333,53,Female,Semi-Urban,93774,2,810,369348,Orthopedic,Self-Employed,1
+334,43,Female,Urban,15263,0,708,332229,General,Salaried,1
+335,44,Female,Rural,75450,2,807,227926,Orthopedic,Salaried,1
+336,23,Male,Semi-Urban,97285,3,371,265341,General,Self-Employed,0
+337,48,Male,Urban,27456,0,546,220851,General,Salaried,1
+338,63,Male,Semi-Urban,99118,0,643,237279,General,Salaried,1
+339,23,Male,Urban,73942,3,353,275687,Orthopedic,Salaried,1
+340,47,Male,Semi-Urban,21689,1,827,346124,Neurological,Self-Employed,1
+341,38,Male,Urban,40934,1,831,368261,Orthopedic,Self-Employed,1
+342,61,Male,Rural,41276,0,492,195213,General,Salaried,0
+343,54,Female,Urban,109968,2,357,190416,Cancer,Daily Wage,0
+344,30,Female,Semi-Urban,27873,1,736,65896,Cardiac,Salaried,1
+345,64,Male,Semi-Urban,21050,2,410,139353,General,Self-Employed,0
+346,60,Female,Urban,74216,1,428,79813,Cancer,Unemployed,1
+347,50,Female,Urban,92444,1,625,265503,Neurological,Self-Employed,1
+348,63,Male,Semi-Urban,92040,2,307,115679,General,Daily Wage,0
+349,47,Female,Rural,29644,3,328,191753,Cancer,Unemployed,0
+350,56,Female,Urban,70021,1,411,253975,General,Self-Employed,1
+351,46,Male,Semi-Urban,45125,1,430,315372,Orthopedic,Daily Wage,0
+352,45,Male,Rural,74899,2,487,447798,Cancer,Daily Wage,0
+353,34,Male,Rural,50291,3,774,259755,Orthopedic,Salaried,1
+354,28,Male,Urban,43060,1,663,323541,Orthopedic,Salaried,1
+355,57,Male,Semi-Urban,9538,1,503,482015,Cancer,Unemployed,0
+356,41,Female,Urban,44176,3,511,349155,Cardiac,Daily Wage,0
+357,22,Male,Rural,49520,1,575,129183,Cancer,Salaried,0
+358,29,Male,Urban,33675,3,372,405398,Cardiac,Salaried,1
+359,37,Female,Urban,26287,3,542,487480,General,Daily Wage,0
+360,35,Female,Semi-Urban,8174,2,401,92317,General,Self-Employed,0
+361,33,Male,Urban,100268,0,470,228986,Cancer,Self-Employed,1
+362,44,Male,Rural,42998,3,487,265705,General,Daily Wage,0
+363,36,Male,Rural,110591,2,740,414633,Neurological,Self-Employed,0
+364,49,Female,Semi-Urban,61312,0,385,226326,Orthopedic,Self-Employed,0
+365,55,Male,Urban,20112,1,775,352240,Orthopedic,Daily Wage,1
+366,23,Male,Semi-Urban,113410,0,351,365929,Cardiac,Daily Wage,0
+367,53,Female,Urban,83225,3,410,102344,General,Self-Employed,1
+368,44,Male,Urban,52814,3,342,296060,Cardiac,Salaried,1
+369,43,Female,Rural,93091,3,510,432526,Orthopedic,Salaried,0
+370,46,Female,Urban,58719,3,499,249618,Orthopedic,Unemployed,1
+371,43,Male,Urban,41919,3,325,209484,General,Salaried,1
+372,43,Female,Rural,81155,2,598,160489,Neurological,Salaried,0
+373,63,Male,Urban,79569,3,376,494874,Neurological,Self-Employed,1
+374,27,Female,Urban,49328,2,436,492765,General,Daily Wage,0
+375,36,Male,Rural,78482,1,319,308667,General,Salaried,0
+376,64,Female,Urban,32618,3,739,61549,Cardiac,Salaried,1
+377,58,Male,Semi-Urban,42675,3,510,75739,General,Salaried,1
+378,54,Female,Rural,109794,0,734,333353,Neurological,Daily Wage,0
+379,29,Female,Rural,26919,1,506,157051,General,Salaried,0
+380,26,Male,Semi-Urban,12173,3,738,65116,Cardiac,Salaried,1
+381,60,Female,Urban,117369,3,341,70045,Cardiac,Salaried,1
+382,25,Male,Urban,34400,1,710,469543,Cardiac,Daily Wage,1
+383,27,Male,Rural,58445,2,822,85709,Cardiac,Salaried,1
+384,53,Male,Rural,78305,3,726,355761,Cancer,Salaried,1
+385,51,Male,Semi-Urban,45564,0,574,207977,General,Self-Employed,0
+386,56,Male,Urban,53814,3,747,253675,Orthopedic,Unemployed,1
+387,61,Female,Urban,87747,0,668,279167,General,Self-Employed,1
+388,37,Male,Urban,96791,0,519,431923,Cancer,Unemployed,1
+389,34,Female,Semi-Urban,35962,3,531,355063,Cardiac,Daily Wage,0
+390,63,Male,Urban,92892,3,627,395665,Cancer,Salaried,1
+391,51,Female,Rural,93842,0,742,269222,Neurological,Self-Employed,1
+392,40,Female,Semi-Urban,78533,1,351,239518,Neurological,Salaried,1
+393,38,Male,Urban,64184,1,675,233500,General,Self-Employed,1
+394,40,Female,Semi-Urban,90912,3,562,491110,General,Salaried,1
+395,49,Male,Urban,114416,2,566,318591,Orthopedic,Salaried,1
+396,47,Female,Semi-Urban,111591,1,658,55499,Orthopedic,Unemployed,1
+397,58,Male,Semi-Urban,18578,3,616,89041,Neurological,Salaried,0
+398,47,Female,Rural,26624,1,623,343459,Cardiac,Daily Wage,0
+399,44,Male,Rural,47194,2,720,182371,Cancer,Salaried,1
+400,30,Male,Urban,117903,3,345,432650,Orthopedic,Salaried,1
+401,33,Female,Urban,8389,2,568,186066,Orthopedic,Daily Wage,0
+402,22,Male,Semi-Urban,107303,3,680,276486,Cardiac,Self-Employed,1
+403,22,Male,Urban,119116,2,417,262235,Cardiac,Daily Wage,0
+404,55,Male,Urban,75391,1,415,307831,General,Salaried,1
+405,53,Male,Urban,114429,1,559,450705,Cancer,Self-Employed,1
+406,46,Male,Semi-Urban,21794,2,374,403791,Cardiac,Daily Wage,0
+407,61,Male,Urban,66002,2,779,344499,Orthopedic,Self-Employed,1
+408,22,Male,Semi-Urban,43531,2,604,385949,Orthopedic,Self-Employed,0
+409,37,Male,Rural,60815,3,306,380511,Neurological,Unemployed,0
+410,60,Female,Urban,12986,1,665,422050,Cardiac,Self-Employed,1
+411,26,Male,Urban,40298,3,822,429553,General,Unemployed,1
+412,43,Male,Urban,9481,1,647,389499,Cancer,Daily Wage,0
+413,50,Male,Rural,64408,0,737,166220,General,Daily Wage,0
+414,24,Male,Urban,77267,3,514,271421,Orthopedic,Salaried,1
+415,33,Female,Urban,24835,1,728,399317,General,Salaried,1
+416,47,Male,Urban,35798,1,797,314140,Orthopedic,Daily Wage,1
+417,37,Male,Semi-Urban,99649,3,839,301071,Orthopedic,Salaried,1
+418,58,Female,Urban,72887,3,666,356531,Orthopedic,Salaried,1
+419,43,Female,Semi-Urban,27477,1,612,53089,Orthopedic,Salaried,0
+420,50,Male,Rural,25266,3,837,410971,Orthopedic,Salaried,0
+421,35,Female,Urban,94328,2,353,332803,Neurological,Unemployed,1
+422,49,Female,Rural,93988,3,840,357322,General,Daily Wage,0
+423,26,Male,Urban,51526,3,766,145965,Neurological,Self-Employed,1
+424,51,Female,Rural,114870,3,463,131268,Neurological,Salaried,0
+425,26,Female,Semi-Urban,19889,1,633,397186,Cardiac,Daily Wage,0
+426,33,Male,Rural,32335,2,846,418615,Cardiac,Self-Employed,0
+427,37,Male,Urban,19254,0,647,251798,Cardiac,Unemployed,0
+428,47,Male,Urban,94610,0,572,382255,Cancer,Self-Employed,1
+429,47,Female,Urban,19442,2,713,287103,Cardiac,Salaried,1
+430,42,Female,Urban,54289,2,799,294754,General,Self-Employed,1
+431,60,Female,Urban,61747,2,392,215637,Neurological,Unemployed,1
+432,57,Male,Urban,45327,1,378,412579,General,Self-Employed,1
+433,54,Female,Urban,24199,0,516,139242,Cardiac,Self-Employed,0
+434,51,Male,Urban,80827,2,657,425348,Cancer,Salaried,1
+435,58,Male,Rural,114464,1,806,203956,Cancer,Daily Wage,0
+436,44,Male,Urban,8112,0,480,329343,Neurological,Daily Wage,0
+437,31,Female,Urban,95051,3,545,110038,General,Salaried,1
+438,26,Male,Urban,27581,1,543,107786,Orthopedic,Self-Employed,0
+439,57,Female,Urban,67722,0,805,421780,General,Salaried,1
+440,55,Male,Rural,100036,1,721,286042,Cardiac,Salaried,1
+441,52,Male,Urban,105562,0,619,361438,Orthopedic,Salaried,1
+442,31,Male,Semi-Urban,24523,0,386,259087,Cancer,Salaried,0
+443,40,Male,Rural,74960,3,516,215250,Neurological,Self-Employed,0
+444,53,Female,Rural,27552,1,789,455881,Neurological,Salaried,1
+445,22,Male,Semi-Urban,18808,2,818,312678,Cancer,Salaried,1
+446,26,Female,Rural,112347,3,577,403972,Cardiac,Daily Wage,0
+447,25,Male,Rural,80525,3,468,348276,Cancer,Self-Employed,0
+448,37,Female,Semi-Urban,31620,0,629,427864,Cardiac,Self-Employed,0
+449,45,Male,Semi-Urban,112565,2,740,348254,Orthopedic,Salaried,1
+450,37,Female,Semi-Urban,8887,1,690,239826,Cancer,Self-Employed,1
+451,23,Female,Semi-Urban,39802,2,795,375724,Cardiac,Salaried,1
+452,49,Male,Semi-Urban,93024,2,680,465685,Orthopedic,Daily Wage,0
+453,53,Male,Urban,103549,2,605,376160,Cancer,Salaried,1
+454,48,Female,Urban,89938,2,812,96233,Neurological,Self-Employed,1
+455,41,Female,Urban,94741,2,487,442007,Cancer,Salaried,1
+456,45,Male,Urban,34049,0,815,247780,General,Daily Wage,1
+457,33,Female,Urban,85789,0,726,274522,Cancer,Self-Employed,1
+458,56,Female,Urban,92526,3,801,156311,General,Self-Employed,1
+459,54,Female,Semi-Urban,15846,0,559,84409,Orthopedic,Salaried,0
+460,54,Female,Urban,98563,3,812,296231,Cancer,Self-Employed,1
+461,64,Female,Rural,112736,3,370,462540,Orthopedic,Unemployed,0
+462,58,Male,Urban,54220,1,777,451954,Orthopedic,Daily Wage,1
+463,33,Male,Urban,54163,2,477,336198,Cardiac,Salaried,1
+464,24,Male,Semi-Urban,11765,0,756,79709,Orthopedic,Salaried,1
+465,22,Female,Semi-Urban,89486,1,488,159321,Orthopedic,Unemployed,0
+466,54,Female,Urban,53270,0,590,50363,Cancer,Self-Employed,1
+467,61,Male,Rural,83277,3,819,322502,Cancer,Self-Employed,0
+468,31,Female,Rural,96278,0,591,446456,Neurological,Unemployed,0
+469,64,Female,Urban,98239,2,582,95689,Cardiac,Daily Wage,0
+470,50,Male,Urban,112245,3,843,314080,Orthopedic,Self-Employed,1
+471,34,Male,Rural,111159,3,676,424416,Cardiac,Salaried,1
+472,33,Male,Semi-Urban,30931,1,455,141074,General,Salaried,1
+473,52,Male,Semi-Urban,97116,2,807,225037,Orthopedic,Daily Wage,0
+474,23,Male,Rural,63633,3,712,258606,Cardiac,Salaried,1
+475,56,Male,Urban,88702,2,827,50882,Neurological,Salaried,1
+476,44,Male,Urban,59913,0,654,463440,Neurological,Salaried,1
+477,38,Male,Urban,102776,2,486,417371,Orthopedic,Salaried,1
+478,47,Male,Semi-Urban,33991,3,330,304822,General,Self-Employed,0
+479,29,Male,Semi-Urban,62845,1,559,175865,Neurological,Self-Employed,0
+480,50,Female,Semi-Urban,112092,3,720,173745,Neurological,Self-Employed,1
+481,47,Male,Urban,106505,2,828,474041,General,Salaried,1
+482,31,Female,Urban,63312,2,603,78885,Cardiac,Unemployed,1
+483,47,Female,Urban,18561,3,338,221128,Neurological,Salaried,1
+484,55,Male,Semi-Urban,24901,2,788,446419,Cancer,Daily Wage,0
+485,62,Male,Semi-Urban,114041,0,841,241313,Neurological,Unemployed,1
+486,28,Male,Urban,103556,3,577,445460,Cardiac,Salaried,1
+487,25,Male,Rural,70875,1,502,410466,Cardiac,Self-Employed,0
+488,32,Female,Urban,33917,3,365,380763,Orthopedic,Unemployed,1
+489,50,Male,Rural,70120,0,407,71584,Cancer,Salaried,0
+490,57,Male,Urban,9988,0,567,320665,Cardiac,Self-Employed,0
+491,46,Male,Semi-Urban,118041,0,521,231089,General,Self-Employed,0
+492,42,Male,Urban,22256,0,829,345685,Cancer,Salaried,1
+493,57,Female,Rural,95728,0,389,79063,Cancer,Daily Wage,0
+494,31,Male,Urban,36230,1,554,120268,General,Daily Wage,0
+495,58,Male,Urban,113466,2,754,306306,Neurological,Daily Wage,1
+496,30,Male,Urban,67778,0,552,176218,General,Salaried,1
+497,45,Female,Urban,53833,0,556,430350,General,Salaried,1
+498,56,Male,Urban,30625,3,682,274126,Neurological,Self-Employed,1
+499,56,Male,Rural,40088,1,741,220635,Neurological,Salaried,1
+500,57,Female,Urban,87650,1,389,220824,Neurological,Self-Employed,1
+501,39,Male,Semi-Urban,49167,2,689,276305,Neurological,Self-Employed,1
+502,60,Female,Semi-Urban,111937,1,343,445783,Neurological,Self-Employed,0
+503,53,Female,Semi-Urban,79291,3,318,459337,General,Self-Employed,0
+504,45,Female,Urban,73303,3,400,444890,Orthopedic,Salaried,1
+505,44,Female,Urban,84361,2,656,126411,Orthopedic,Salaried,1
+506,53,Female,Semi-Urban,96229,3,841,159876,Cardiac,Salaried,1
+507,58,Female,Rural,12117,0,332,248153,Orthopedic,Self-Employed,0
+508,33,Female,Urban,98265,0,528,210212,Orthopedic,Self-Employed,1
+509,34,Female,Urban,105718,3,823,190399,General,Daily Wage,1
+510,44,Male,Urban,68710,2,454,73331,Neurological,Daily Wage,0
+511,46,Male,Rural,102426,1,722,73004,Neurological,Unemployed,1
+512,56,Male,Urban,102876,2,545,288441,General,Salaried,1
+513,62,Male,Urban,75054,1,704,431387,Orthopedic,Salaried,1
+514,51,Male,Rural,38949,3,840,453708,General,Salaried,1
+515,38,Male,Urban,30547,3,460,498013,Cardiac,Daily Wage,0
+516,41,Male,Urban,89882,0,416,239167,Neurological,Salaried,1
+517,46,Female,Semi-Urban,76136,1,570,456965,Cancer,Daily Wage,0
+518,43,Female,Rural,119541,2,786,375361,Cardiac,Self-Employed,0
+519,34,Male,Urban,72619,3,471,139044,Cardiac,Unemployed,1
+520,40,Male,Urban,69842,2,573,321189,General,Unemployed,1
+521,57,Female,Urban,102803,0,558,332260,Orthopedic,Salaried,1
+522,33,Male,Urban,109858,1,434,68667,Neurological,Self-Employed,1
+523,62,Female,Semi-Urban,34990,1,721,387201,Cancer,Self-Employed,1
+524,40,Male,Urban,24193,3,720,124205,Cardiac,Salaried,1
+525,33,Male,Urban,38109,1,485,77302,Cancer,Salaried,1
+526,30,Female,Urban,27233,3,663,454499,Orthopedic,Self-Employed,1
+527,28,Male,Semi-Urban,89730,0,677,212007,Orthopedic,Salaried,1
+528,49,Female,Semi-Urban,42510,1,822,122534,Cancer,Self-Employed,1
+529,35,Female,Rural,9306,3,495,275414,Neurological,Self-Employed,0
+530,52,Male,Urban,11849,2,397,212696,Orthopedic,Salaried,1
+531,40,Female,Rural,20360,3,321,63440,Cancer,Self-Employed,0
+532,37,Female,Rural,119072,1,749,423145,Cardiac,Salaried,1
+533,26,Male,Urban,102767,0,471,358645,Cancer,Daily Wage,0
+534,56,Female,Urban,53800,1,682,444485,Cancer,Salaried,1
+535,33,Male,Urban,44963,1,433,320012,General,Daily Wage,0
+536,46,Female,Urban,62330,3,725,211323,Orthopedic,Salaried,1
+537,42,Female,Urban,59707,2,324,390053,Neurological,Salaried,1
+538,57,Male,Urban,26689,1,802,134523,Neurological,Salaried,1
+539,44,Female,Urban,37084,2,484,219801,General,Salaried,1
+540,37,Female,Rural,48387,3,384,65734,Neurological,Salaried,0
+541,60,Female,Urban,82816,2,443,223501,Cancer,Self-Employed,1
+542,63,Female,Rural,10642,3,711,222409,General,Self-Employed,0
+543,60,Female,Semi-Urban,50137,0,523,483541,Cardiac,Salaried,1
+544,35,Male,Rural,87832,2,519,395744,Orthopedic,Salaried,0
+545,52,Female,Semi-Urban,63561,2,478,320577,Orthopedic,Daily Wage,0
+546,26,Male,Urban,70260,0,732,190183,Orthopedic,Self-Employed,1
+547,56,Male,Semi-Urban,23438,2,564,153986,Cancer,Salaried,0
+548,44,Female,Urban,56442,0,728,375897,Cardiac,Daily Wage,1
+549,50,Male,Urban,111061,1,715,163783,General,Salaried,1
+550,64,Male,Rural,10994,3,752,261655,General,Daily Wage,0
+551,32,Male,Urban,107575,0,496,333895,Orthopedic,Salaried,1
+552,39,Male,Urban,9813,2,352,197525,Cardiac,Salaried,1
+553,33,Female,Semi-Urban,101027,0,779,266916,Cardiac,Unemployed,1
+554,30,Male,Rural,92381,2,742,482184,Cardiac,Salaried,1
+555,31,Female,Semi-Urban,63276,1,629,211149,Neurological,Daily Wage,0
+556,38,Male,Urban,49243,0,550,289654,Neurological,Salaried,1
+557,59,Female,Semi-Urban,70912,1,422,477991,Orthopedic,Self-Employed,0
+558,28,Male,Urban,68272,3,686,239216,Cardiac,Daily Wage,1
+559,34,Male,Semi-Urban,110700,2,638,360714,Cardiac,Salaried,1
+560,61,Female,Rural,50051,2,647,227169,General,Daily Wage,0
+561,63,Female,Semi-Urban,86854,1,328,336647,General,Self-Employed,0
+562,30,Male,Rural,90736,3,334,183851,Orthopedic,Self-Employed,0
+563,48,Male,Urban,73618,0,817,398984,Cardiac,Self-Employed,1
+564,23,Male,Semi-Urban,9920,0,695,181827,Orthopedic,Daily Wage,0
+565,26,Male,Rural,114121,2,593,351407,General,Salaried,0
+566,50,Female,Urban,85219,1,648,420635,General,Salaried,1
+567,58,Male,Rural,84872,1,446,367231,Neurological,Daily Wage,0
+568,59,Male,Urban,89132,0,366,485497,Orthopedic,Daily Wage,0
+569,40,Male,Semi-Urban,10093,3,819,101482,Orthopedic,Salaried,1
+570,29,Male,Rural,20905,3,421,498073,Cardiac,Self-Employed,0
+571,22,Male,Semi-Urban,32351,0,639,172989,Cardiac,Self-Employed,0
+572,43,Male,Urban,38981,0,474,460616,Neurological,Salaried,1
+573,38,Male,Semi-Urban,81903,1,750,352259,Cancer,Salaried,1
+574,28,Male,Semi-Urban,78821,3,435,326393,Cancer,Self-Employed,0
+575,46,Female,Rural,117200,0,315,294255,Cancer,Salaried,0
+576,25,Male,Urban,111241,0,632,490041,Orthopedic,Daily Wage,0
+577,57,Female,Urban,90289,2,494,160361,Orthopedic,Daily Wage,0
+578,27,Male,Semi-Urban,92021,0,795,336744,General,Salaried,1
+579,52,Female,Urban,86513,0,308,349850,Orthopedic,Salaried,1
+580,40,Female,Semi-Urban,27874,3,633,331366,Orthopedic,Salaried,0
+581,60,Female,Semi-Urban,58931,1,632,411185,Orthopedic,Self-Employed,0
+582,48,Female,Rural,15674,3,626,416648,Neurological,Daily Wage,0
+583,31,Male,Semi-Urban,58516,1,314,91139,Orthopedic,Salaried,1
+584,47,Male,Semi-Urban,102574,2,525,164919,Cardiac,Self-Employed,0
+585,40,Male,Urban,68686,0,724,297677,Cardiac,Salaried,1
+586,60,Male,Urban,102851,2,707,353446,General,Salaried,1
+587,24,Male,Urban,77212,1,412,275756,Neurological,Salaried,1
+588,34,Male,Urban,10426,3,727,399982,Cardiac,Salaried,1
+589,49,Female,Semi-Urban,98009,3,300,189718,Neurological,Salaried,1
+590,41,Male,Semi-Urban,76498,2,565,194615,Neurological,Salaried,1
+591,49,Female,Semi-Urban,37943,1,790,275568,General,Daily Wage,1
+592,29,Female,Rural,74395,2,507,203857,Neurological,Daily Wage,0
+593,62,Female,Rural,52816,2,668,390497,Orthopedic,Salaried,1
+594,60,Male,Rural,12138,0,605,474622,Neurological,Salaried,0
+595,22,Male,Semi-Urban,108728,2,311,401136,General,Salaried,1
+596,24,Male,Semi-Urban,99176,0,644,363572,General,Salaried,1
+597,34,Male,Urban,83945,0,764,73777,General,Self-Employed,1
+598,49,Female,Urban,12017,3,793,107939,Cardiac,Salaried,1
+599,46,Male,Urban,18451,0,667,496242,Orthopedic,Salaried,1
+600,54,Female,Rural,70956,0,719,398594,Cardiac,Salaried,1
+601,59,Male,Rural,101863,3,470,472769,Cancer,Salaried,0
+602,27,Female,Urban,18278,2,433,73548,Orthopedic,Salaried,1
+603,53,Female,Urban,98480,1,726,480481,Neurological,Daily Wage,1
+604,42,Male,Rural,51764,1,324,175549,General,Salaried,0
+605,37,Male,Urban,9134,1,829,483917,Cancer,Self-Employed,1
+606,42,Male,Urban,70943,2,489,494503,Orthopedic,Self-Employed,1
+607,32,Male,Rural,103667,0,440,187799,Cardiac,Daily Wage,0
+608,58,Male,Urban,62318,1,614,291532,General,Daily Wage,0
+609,57,Male,Urban,111423,2,743,231789,Cardiac,Daily Wage,1
+610,56,Male,Semi-Urban,111998,0,618,475643,Orthopedic,Salaried,1
+611,40,Male,Rural,68128,3,740,197764,Orthopedic,Self-Employed,0
+612,41,Male,Semi-Urban,96056,1,391,81625,Cancer,Daily Wage,0
+613,39,Female,Urban,29869,0,478,337062,Neurological,Salaried,1
+614,62,Male,Urban,110468,1,355,484352,Cardiac,Self-Employed,1
+615,35,Female,Urban,13039,1,454,426970,Cancer,Daily Wage,0
+616,36,Male,Semi-Urban,29281,1,410,164881,General,Self-Employed,0
+617,52,Male,Semi-Urban,18442,0,436,495625,Neurological,Salaried,0
+618,22,Female,Urban,81788,2,531,327721,Cancer,Salaried,1
+619,24,Male,Rural,35586,0,767,397299,Cardiac,Salaried,1
+620,37,Male,Urban,61053,1,780,161776,Orthopedic,Salaried,1
+621,44,Male,Urban,58489,0,367,411390,General,Self-Employed,1
+622,32,Male,Urban,91104,3,548,283996,Cardiac,Daily Wage,0
+623,33,Male,Urban,94346,2,622,307831,Neurological,Salaried,1
+624,31,Male,Semi-Urban,75087,0,817,262803,Neurological,Daily Wage,1
+625,53,Female,Semi-Urban,20625,3,731,208761,Orthopedic,Salaried,1
+626,37,Male,Urban,42397,2,786,192226,Orthopedic,Salaried,1
+627,29,Male,Semi-Urban,66671,3,728,407092,General,Daily Wage,0
+628,59,Male,Urban,99785,2,568,71341,General,Daily Wage,0
+629,33,Female,Semi-Urban,74897,0,836,409698,Orthopedic,Self-Employed,1
+630,45,Male,Rural,34149,3,447,255753,Orthopedic,Daily Wage,0
+631,49,Male,Urban,68030,1,417,419942,Neurological,Daily Wage,0
+632,29,Male,Semi-Urban,77906,3,666,358474,Orthopedic,Daily Wage,0
+633,49,Female,Urban,13283,2,365,299141,Cancer,Salaried,1
+634,57,Male,Urban,15610,0,669,399903,Cardiac,Daily Wage,1
+635,47,Male,Urban,51326,2,474,249488,Orthopedic,Unemployed,1
+636,29,Male,Semi-Urban,22924,3,794,306139,General,Daily Wage,0
+637,49,Female,Semi-Urban,118253,3,413,398951,Cancer,Salaried,1
+638,49,Male,Urban,84162,1,410,345457,General,Self-Employed,1
+639,58,Male,Rural,108297,0,738,359044,Cancer,Self-Employed,1
+640,62,Female,Semi-Urban,8869,0,446,128840,Orthopedic,Salaried,0
+641,57,Female,Rural,105088,3,334,215767,Cardiac,Unemployed,0
+642,48,Male,Semi-Urban,9014,0,608,211297,General,Salaried,0
+643,38,Female,Semi-Urban,18103,1,837,398216,Cancer,Salaried,1
+644,30,Male,Urban,90522,2,313,408511,Neurological,Unemployed,1
+645,54,Male,Urban,118317,0,673,99156,Orthopedic,Self-Employed,1
+646,41,Male,Rural,104007,3,727,258281,Cardiac,Salaried,1
+647,34,Female,Urban,41458,2,532,137453,Orthopedic,Self-Employed,1
+648,49,Male,Rural,98605,2,739,208901,Neurological,Self-Employed,0
+649,50,Male,Semi-Urban,90409,1,801,75938,Cardiac,Salaried,1
+650,34,Male,Urban,31248,3,574,109164,Neurological,Unemployed,1
+651,56,Female,Urban,97160,0,375,497746,Orthopedic,Self-Employed,1
+652,27,Male,Urban,51516,3,738,249271,Cancer,Self-Employed,1
+653,39,Male,Rural,37061,2,588,110282,Orthopedic,Self-Employed,0
+654,26,Male,Urban,32170,3,839,359945,Orthopedic,Self-Employed,1
+655,46,Male,Urban,16024,0,552,452681,Orthopedic,Salaried,1
+656,23,Male,Urban,90214,0,425,315470,General,Salaried,1
+657,31,Female,Urban,111792,1,476,446875,Neurological,Self-Employed,1
+658,51,Male,Urban,93947,0,336,208666,Neurological,Daily Wage,0
+659,26,Male,Urban,51803,0,709,165819,Neurological,Salaried,1
+660,54,Female,Rural,27296,3,426,316907,General,Self-Employed,0
+661,22,Male,Urban,99829,3,782,191900,Cancer,Daily Wage,1
+662,39,Male,Urban,100708,2,467,359732,Orthopedic,Salaried,1
+663,53,Female,Urban,94664,1,593,323365,Cancer,Salaried,1
+664,32,Male,Urban,26257,3,642,454427,General,Salaried,1
+665,42,Male,Rural,20855,0,609,63569,Neurological,Self-Employed,0
+666,47,Male,Semi-Urban,93178,2,827,277966,Orthopedic,Salaried,1
+667,46,Male,Urban,109121,3,839,87860,Cardiac,Salaried,1
+668,43,Male,Semi-Urban,28025,1,718,252630,Cardiac,Self-Employed,1
+669,48,Male,Urban,12458,1,743,357481,Cancer,Self-Employed,1
+670,34,Male,Urban,71610,2,535,495527,Neurological,Salaried,1
+671,54,Male,Rural,78843,2,738,194587,Cardiac,Salaried,1
+672,55,Female,Semi-Urban,115237,2,513,121695,Cancer,Daily Wage,0
+673,62,Female,Rural,91961,2,384,303078,General,Unemployed,0
+674,56,Male,Urban,57831,2,384,292599,Cancer,Daily Wage,0
+675,22,Male,Semi-Urban,51427,0,788,418893,Cancer,Self-Employed,1
+676,42,Female,Urban,101809,0,364,205976,Cancer,Salaried,1
+677,27,Male,Urban,46506,3,363,241007,Orthopedic,Salaried,1
+678,49,Male,Rural,13668,1,642,355934,Cancer,Salaried,0
+679,38,Female,Urban,99470,0,651,380724,Cancer,Salaried,1
+680,26,Male,Rural,55195,0,457,55636,Orthopedic,Self-Employed,0
+681,52,Female,Semi-Urban,81233,0,790,311578,Orthopedic,Salaried,1
+682,26,Female,Urban,32417,3,762,389273,General,Salaried,1
+683,59,Male,Semi-Urban,89982,2,524,446108,Neurological,Unemployed,0
+684,24,Male,Semi-Urban,114133,3,612,333816,Cardiac,Salaried,1
+685,44,Male,Urban,18751,1,765,317956,Cardiac,Salaried,1
+686,58,Female,Rural,54218,1,387,277693,Cancer,Salaried,0
+687,58,Female,Semi-Urban,15352,1,602,50654,General,Self-Employed,0
+688,31,Female,Urban,87052,1,734,104633,Cancer,Self-Employed,1
+689,31,Male,Semi-Urban,96835,0,434,67143,Cardiac,Salaried,1
+690,40,Female,Rural,105493,0,349,105934,Orthopedic,Self-Employed,0
+691,38,Female,Urban,36927,3,731,379478,Neurological,Daily Wage,1
+692,42,Female,Rural,49094,2,639,153463,General,Daily Wage,0
+693,35,Female,Urban,109948,1,646,175851,Orthopedic,Unemployed,1
+694,30,Female,Semi-Urban,62122,3,646,79087,Neurological,Daily Wage,0
+695,22,Female,Semi-Urban,37493,0,544,192690,General,Self-Employed,0
+696,34,Male,Urban,100247,0,408,320590,General,Salaried,1
+697,25,Male,Urban,81539,2,832,414271,Cardiac,Salaried,1
+698,22,Male,Semi-Urban,39707,2,389,361011,Orthopedic,Salaried,1
+699,61,Female,Urban,76814,2,595,494244,General,Self-Employed,1
+700,53,Male,Semi-Urban,15296,3,411,372245,General,Daily Wage,0
+701,55,Female,Urban,33398,0,476,208272,Neurological,Self-Employed,1
+702,49,Female,Rural,43842,0,642,276179,Cardiac,Salaried,0
+703,52,Female,Semi-Urban,21261,2,400,400218,Cancer,Self-Employed,0
+704,29,Male,Rural,84709,1,700,242537,Cardiac,Unemployed,1
+705,60,Male,Urban,103985,2,327,267508,Cancer,Self-Employed,1
+706,47,Male,Semi-Urban,114616,3,836,168422,Orthopedic,Daily Wage,0
+707,55,Female,Semi-Urban,64704,2,357,400036,Orthopedic,Daily Wage,0
+708,24,Female,Urban,75173,2,797,269631,General,Unemployed,1
+709,33,Female,Urban,39781,3,596,432188,Orthopedic,Daily Wage,0
+710,22,Male,Urban,21652,2,433,89148,General,Daily Wage,0
+711,26,Female,Semi-Urban,13103,0,630,395072,Cardiac,Salaried,0
+712,51,Female,Semi-Urban,33500,1,548,201770,Orthopedic,Salaried,1
+713,51,Male,Urban,108336,2,849,485686,Cardiac,Self-Employed,1
+714,38,Female,Semi-Urban,43529,3,374,363804,Cardiac,Salaried,1
+715,44,Male,Urban,26452,1,467,497126,Orthopedic,Unemployed,0
+716,36,Male,Urban,57393,3,802,347594,Cardiac,Salaried,1
+717,58,Female,Rural,39174,1,654,237535,Orthopedic,Daily Wage,0
+718,42,Male,Rural,72450,1,524,345901,Orthopedic,Salaried,0
+719,35,Female,Semi-Urban,43436,2,830,128012,Orthopedic,Salaried,1
+720,23,Female,Urban,55406,0,445,418894,Cancer,Unemployed,1
+721,32,Male,Semi-Urban,71059,2,540,439187,Cardiac,Salaried,1
+722,60,Male,Urban,23954,3,643,474606,Neurological,Salaried,1
+723,59,Male,Urban,90722,3,334,106116,Orthopedic,Salaried,1
+724,55,Male,Urban,20356,1,300,194233,Cardiac,Self-Employed,0
+725,59,Male,Semi-Urban,106499,1,452,82152,General,Salaried,1
+726,55,Male,Semi-Urban,10187,0,728,156379,Orthopedic,Self-Employed,1
+727,39,Male,Urban,85243,2,807,276905,Orthopedic,Self-Employed,1
+728,51,Male,Semi-Urban,43098,3,425,70836,Neurological,Daily Wage,0
+729,36,Male,Rural,100471,1,790,271439,Cancer,Daily Wage,0
+730,48,Female,Urban,29225,0,781,236720,Cancer,Self-Employed,1
+731,55,Female,Semi-Urban,11606,3,644,207403,Orthopedic,Salaried,0
+732,59,Male,Rural,65620,1,520,191835,Cardiac,Daily Wage,0
+733,54,Male,Urban,40828,3,324,381588,General,Salaried,1
+734,45,Female,Urban,34489,0,827,143109,General,Self-Employed,1
+735,36,Female,Semi-Urban,22387,0,481,200259,Cardiac,Salaried,0
+736,51,Female,Semi-Urban,77463,3,798,193029,Orthopedic,Daily Wage,0
+737,63,Female,Rural,79832,2,341,447595,General,Salaried,0
+738,38,Male,Urban,103980,3,780,471175,Cancer,Salaried,1
+739,26,Male,Rural,119926,1,738,132018,Cardiac,Self-Employed,1
+740,50,Male,Urban,10591,2,701,173076,Neurological,Self-Employed,1
+741,25,Male,Urban,118431,1,845,208177,Orthopedic,Salaried,1
+742,31,Male,Semi-Urban,56516,3,644,444093,Cardiac,Self-Employed,0
+743,38,Male,Urban,99683,2,344,229425,General,Daily Wage,0
+744,31,Male,Urban,70061,1,320,395932,Orthopedic,Unemployed,1
+745,38,Female,Urban,112425,3,369,409014,Cancer,Self-Employed,1
+746,41,Female,Urban,74736,3,347,265657,Orthopedic,Salaried,1
+747,45,Male,Urban,89257,2,790,395452,Orthopedic,Salaried,1
+748,26,Female,Rural,69753,3,586,494783,Cancer,Daily Wage,0
+749,55,Male,Urban,92774,0,309,370057,Cancer,Daily Wage,0
+750,27,Female,Semi-Urban,19087,1,841,52637,Orthopedic,Salaried,1
+751,23,Male,Semi-Urban,38816,1,573,354169,Cancer,Salaried,1
+752,34,Female,Rural,31408,3,680,287989,Cardiac,Daily Wage,0
+753,64,Female,Urban,113276,3,628,282259,Cancer,Salaried,1
+754,64,Male,Rural,8136,0,778,411652,Cancer,Salaried,1
+755,32,Male,Semi-Urban,25413,2,314,132464,Orthopedic,Salaried,0
+756,44,Male,Semi-Urban,67500,3,815,340886,Cardiac,Salaried,1
+757,37,Male,Semi-Urban,92514,3,490,61831,Neurological,Salaried,1
+758,52,Male,Rural,64358,3,467,163768,Neurological,Daily Wage,0
+759,32,Female,Urban,74197,3,820,296983,General,Salaried,1
+760,37,Male,Semi-Urban,108776,1,436,397236,Cancer,Salaried,1
+761,29,Female,Semi-Urban,100789,3,453,403023,Cancer,Salaried,1
+762,25,Female,Semi-Urban,100420,1,687,400514,Cardiac,Self-Employed,1
+763,61,Male,Rural,40854,3,508,438681,Neurological,Salaried,0
+764,25,Male,Urban,84240,2,571,489978,General,Self-Employed,1
+765,46,Male,Rural,112523,0,442,154824,Cardiac,Daily Wage,0
+766,24,Female,Urban,98063,2,368,138741,Cancer,Salaried,1
+767,53,Male,Urban,24322,3,546,68830,Neurological,Salaried,1
+768,24,Female,Urban,14968,3,560,367188,General,Salaried,1
+769,48,Female,Urban,35518,3,378,386092,Orthopedic,Self-Employed,1
+770,50,Male,Semi-Urban,59925,2,824,119202,Neurological,Daily Wage,0
+771,53,Male,Urban,67848,3,629,349189,General,Salaried,1
+772,40,Female,Urban,119900,2,488,267394,Cardiac,Unemployed,1
+773,42,Female,Rural,101422,1,394,252123,Orthopedic,Salaried,0
+774,26,Male,Rural,9700,0,307,419653,General,Daily Wage,0
+775,39,Male,Rural,101782,0,366,207699,General,Self-Employed,0
+776,49,Female,Rural,109004,2,795,327342,Cancer,Self-Employed,0
+777,63,Male,Semi-Urban,31199,1,490,381665,Neurological,Self-Employed,0
+778,43,Female,Urban,52589,2,665,156471,Cancer,Self-Employed,1
+779,42,Male,Urban,40115,1,820,341619,Orthopedic,Daily Wage,1
+780,27,Male,Semi-Urban,69934,3,416,286824,General,Daily Wage,0
+781,22,Female,Urban,62316,1,566,69403,Cancer,Self-Employed,1
+782,26,Male,Semi-Urban,13520,1,784,53681,Neurological,Salaried,1
+783,62,Male,Urban,117814,1,808,403699,Orthopedic,Salaried,1
+784,33,Male,Urban,44455,0,597,431028,Cardiac,Daily Wage,0
+785,47,Male,Semi-Urban,94465,1,463,405266,Cancer,Self-Employed,0
+786,55,Female,Semi-Urban,49605,3,675,165260,Orthopedic,Self-Employed,1
+787,35,Male,Semi-Urban,22955,3,567,223364,Cardiac,Self-Employed,0
+788,47,Male,Semi-Urban,52049,3,848,155386,Cancer,Daily Wage,0
+789,48,Female,Urban,21917,1,373,283378,Orthopedic,Self-Employed,0
+790,30,Female,Urban,78293,2,807,448845,Orthopedic,Daily Wage,1
+791,47,Male,Rural,86581,2,372,143246,Cancer,Daily Wage,0
+792,43,Male,Semi-Urban,72925,3,607,145864,Orthopedic,Salaried,1
+793,51,Female,Urban,115216,0,498,258886,General,Salaried,1
+794,64,Female,Rural,78269,2,429,320561,Cancer,Daily Wage,0
+795,38,Male,Urban,38954,1,786,431032,Orthopedic,Salaried,1
+796,47,Male,Urban,104671,2,450,215837,Cardiac,Unemployed,1
+797,57,Male,Urban,80617,3,505,386643,Cardiac,Salaried,1
+798,22,Female,Semi-Urban,49458,0,478,443052,General,Salaried,1
+799,29,Female,Semi-Urban,97037,2,496,295160,Cancer,Unemployed,0
+800,56,Female,Urban,29113,2,388,237646,Orthopedic,Self-Employed,0
+801,36,Female,Rural,107977,3,733,309278,Orthopedic,Salaried,1
+802,43,Female,Urban,98226,0,482,339819,Cardiac,Daily Wage,0
+803,35,Male,Urban,51939,0,508,306681,General,Self-Employed,1
+804,47,Male,Urban,37345,3,792,221635,Cardiac,Self-Employed,1
+805,49,Male,Urban,54313,1,429,61332,Cardiac,Salaried,1
+806,44,Male,Urban,118107,2,312,304817,General,Daily Wage,0
+807,35,Female,Semi-Urban,100365,1,405,331321,Cancer,Daily Wage,0
+808,45,Male,Rural,108598,2,674,442704,Orthopedic,Salaried,1
+809,23,Male,Semi-Urban,77166,2,398,270326,Cancer,Daily Wage,0
+810,47,Male,Urban,55861,1,491,249519,Neurological,Daily Wage,0
+811,35,Male,Urban,105406,3,624,311849,Neurological,Self-Employed,1
+812,28,Male,Urban,57298,3,766,369248,Neurological,Self-Employed,1
+813,24,Male,Urban,55221,2,666,396479,General,Salaried,1
+814,44,Female,Semi-Urban,52942,3,617,427082,Cardiac,Salaried,1
+815,64,Male,Urban,11453,2,443,130730,Cancer,Daily Wage,0
+816,39,Female,Semi-Urban,110811,3,683,448167,Orthopedic,Daily Wage,0
+817,59,Male,Rural,62935,2,515,287474,Neurological,Self-Employed,0
+818,56,Male,Urban,51370,3,660,340477,Cancer,Self-Employed,1
+819,36,Male,Rural,111932,0,623,333817,Neurological,Salaried,0
+820,46,Male,Semi-Urban,16328,1,314,426565,Neurological,Salaried,0
+821,58,Female,Semi-Urban,23534,0,516,90870,Orthopedic,Salaried,0
+822,49,Male,Semi-Urban,93280,1,791,303017,General,Salaried,1
+823,31,Male,Urban,92925,1,846,177536,Cardiac,Self-Employed,1
+824,60,Female,Urban,44320,2,482,383245,General,Salaried,1
+825,38,Male,Urban,57170,1,569,334965,Cancer,Daily Wage,0
+826,60,Male,Urban,108546,0,766,75494,General,Salaried,1
+827,43,Female,Semi-Urban,88201,0,818,149477,Cancer,Self-Employed,1
+828,47,Female,Urban,111401,3,841,438227,Cancer,Self-Employed,1
+829,46,Male,Rural,16640,0,766,255232,Cardiac,Salaried,1
+830,38,Female,Semi-Urban,108252,3,604,424842,Orthopedic,Salaried,1
+831,34,Female,Urban,99057,1,443,423704,Cardiac,Salaried,1
+832,41,Male,Urban,38049,0,410,444051,General,Daily Wage,0
+833,46,Female,Rural,13618,1,531,330790,Cancer,Salaried,0
+834,25,Male,Rural,110540,0,799,173777,Neurological,Daily Wage,0
+835,31,Male,Semi-Urban,64053,0,572,127360,Neurological,Unemployed,0
+836,24,Male,Urban,9920,3,472,349479,Cancer,Daily Wage,0
+837,62,Male,Urban,51937,1,306,381495,Cardiac,Salaried,1
+838,39,Female,Urban,77724,0,454,427078,Orthopedic,Unemployed,1
+839,57,Male,Urban,20207,2,821,183501,Cardiac,Salaried,1
+840,43,Female,Semi-Urban,73774,1,845,354094,Cancer,Self-Employed,1
+841,55,Female,Semi-Urban,40972,1,847,110654,Cancer,Daily Wage,1
+842,29,Male,Semi-Urban,18799,1,817,419566,Orthopedic,Self-Employed,1
+843,61,Female,Rural,79088,3,514,422078,General,Salaried,0
+844,40,Male,Semi-Urban,36916,2,433,169975,General,Salaried,1
+845,63,Male,Urban,78463,1,584,249215,Orthopedic,Salaried,1
+846,62,Female,Urban,101500,0,425,403330,General,Self-Employed,1
+847,58,Male,Rural,84700,0,738,416378,Neurological,Salaried,1
+848,27,Male,Urban,45158,3,451,152326,General,Unemployed,1
+849,47,Male,Rural,92607,0,630,127527,General,Unemployed,0
+850,55,Male,Rural,79696,1,837,398848,General,Daily Wage,0
+851,27,Male,Urban,69510,0,682,474315,Neurological,Salaried,1
+852,58,Male,Semi-Urban,66692,1,414,482601,General,Self-Employed,0
+853,54,Female,Rural,69744,0,781,216991,Neurological,Unemployed,1
+854,43,Male,Semi-Urban,23810,2,583,146952,Orthopedic,Daily Wage,0
+855,42,Male,Rural,13126,3,374,372926,Cardiac,Salaried,0
+856,27,Male,Rural,38009,3,465,383260,Orthopedic,Salaried,0
+857,27,Male,Urban,107120,2,488,401770,Cardiac,Salaried,1
+858,25,Female,Urban,119718,2,377,483603,Orthopedic,Self-Employed,1
+859,51,Female,Rural,98932,3,320,196895,Cardiac,Self-Employed,0
+860,32,Female,Semi-Urban,8192,2,483,96015,Cardiac,Daily Wage,0
+861,51,Male,Urban,44413,1,521,152877,Cancer,Salaried,1
+862,52,Male,Urban,20816,0,627,327483,Cardiac,Salaried,1
+863,45,Male,Semi-Urban,47082,3,478,184563,Cardiac,Salaried,1
+864,30,Female,Rural,73048,2,411,443922,Cancer,Salaried,0
+865,24,Male,Rural,58940,1,358,147493,General,Salaried,0
+866,52,Male,Semi-Urban,40130,3,626,196800,General,Self-Employed,0
+867,61,Female,Urban,48142,2,490,450213,Cancer,Self-Employed,1
+868,58,Male,Urban,44468,3,499,241480,Neurological,Daily Wage,0
+869,57,Male,Rural,38698,2,611,441670,Cardiac,Salaried,0
+870,45,Male,Urban,18655,3,334,481739,Cardiac,Salaried,1
+871,52,Female,Urban,55897,1,678,171648,Cancer,Self-Employed,1
+872,27,Male,Urban,38075,1,686,337307,Cancer,Daily Wage,1
+873,23,Female,Semi-Urban,17359,0,536,198790,Neurological,Salaried,0
+874,41,Female,Rural,110197,3,818,137508,General,Daily Wage,0
+875,49,Male,Urban,113115,0,582,264839,Orthopedic,Salaried,1
+876,32,Female,Urban,50056,3,300,351763,General,Daily Wage,0
+877,25,Male,Semi-Urban,59831,2,763,324270,Cardiac,Daily Wage,0
+878,36,Male,Rural,67191,2,529,114926,Cancer,Salaried,0
+879,27,Female,Urban,41272,0,471,90633,Neurological,Self-Employed,1
+880,51,Female,Urban,116117,3,386,258726,General,Salaried,1
+881,59,Female,Urban,22671,0,422,53317,Neurological,Daily Wage,0
+882,23,Male,Rural,35048,1,597,357124,General,Salaried,0
+883,36,Male,Urban,84274,0,783,356259,Cardiac,Self-Employed,1
+884,32,Male,Urban,33963,0,464,242718,Orthopedic,Daily Wage,0
+885,29,Male,Semi-Urban,51954,2,682,355302,Neurological,Daily Wage,0
+886,47,Male,Semi-Urban,80309,0,508,237035,Neurological,Salaried,1
+887,26,Male,Urban,110120,3,731,490847,Orthopedic,Self-Employed,1
+888,27,Male,Rural,103430,2,688,230388,Neurological,Salaried,1
+889,47,Male,Urban,8717,0,523,417508,Neurological,Salaried,1
+890,25,Male,Semi-Urban,19676,1,302,327648,General,Self-Employed,0
+891,40,Male,Urban,12434,0,671,249665,General,Salaried,1
+892,41,Female,Semi-Urban,57810,0,745,469876,Orthopedic,Salaried,1
+893,54,Male,Urban,111361,0,415,349340,Cardiac,Daily Wage,0
+894,41,Female,Rural,102636,2,569,378082,Neurological,Salaried,0
+895,33,Female,Semi-Urban,12994,3,746,451821,Cardiac,Self-Employed,0
+896,22,Male,Semi-Urban,12234,1,667,369532,Orthopedic,Salaried,1
+897,47,Female,Semi-Urban,77300,0,552,262369,Orthopedic,Salaried,1
+898,35,Male,Semi-Urban,51949,3,616,105501,General,Salaried,1
+899,59,Male,Urban,45405,3,714,234381,Neurological,Self-Employed,1
+900,58,Male,Urban,42872,2,394,77043,Cancer,Daily Wage,0
+901,32,Male,Rural,50215,1,323,83635,Orthopedic,Salaried,0
+902,57,Male,Urban,31185,2,349,260387,Neurological,Salaried,1
+903,34,Male,Semi-Urban,51442,3,801,130691,Cardiac,Unemployed,1
+904,64,Female,Rural,59759,3,797,345276,General,Salaried,1
+905,24,Female,Urban,49153,3,634,327510,Cardiac,Daily Wage,0
+906,54,Male,Semi-Urban,85535,2,378,143944,Orthopedic,Salaried,1
+907,27,Female,Urban,110023,1,326,253179,Orthopedic,Daily Wage,0
+908,31,Male,Semi-Urban,10581,0,570,427411,Cardiac,Salaried,0
+909,26,Male,Urban,59717,2,546,89236,Orthopedic,Daily Wage,0
+910,44,Female,Urban,10763,3,686,316294,Neurological,Daily Wage,0
+911,31,Male,Semi-Urban,100910,2,660,423513,Orthopedic,Salaried,1
+912,23,Male,Rural,63480,3,787,331567,General,Salaried,1
+913,34,Male,Semi-Urban,46759,0,651,54137,Neurological,Daily Wage,1
+914,61,Male,Semi-Urban,84067,0,555,79992,Cancer,Self-Employed,0
+915,23,Female,Urban,33307,1,521,422684,Orthopedic,Salaried,1
+916,41,Male,Semi-Urban,104371,3,300,165140,Orthopedic,Salaried,1
+917,22,Female,Urban,19064,1,845,225993,General,Daily Wage,1
+918,58,Male,Rural,84848,1,745,171225,General,Salaried,1
+919,30,Male,Rural,45548,0,378,379061,Cardiac,Self-Employed,0
+920,38,Male,Semi-Urban,44945,2,535,385834,Cardiac,Self-Employed,0
+921,30,Female,Rural,55937,2,633,346379,Cardiac,Daily Wage,0
+922,32,Male,Urban,14476,1,648,260047,General,Unemployed,0
+923,36,Female,Semi-Urban,59756,0,397,69122,Cardiac,Unemployed,0
+924,45,Female,Urban,98101,3,381,336100,Cardiac,Salaried,1
+925,59,Male,Rural,10382,2,801,113879,Cancer,Daily Wage,0
+926,56,Female,Urban,57683,1,776,108560,Cardiac,Salaried,1
+927,51,Female,Semi-Urban,95999,2,849,422454,Orthopedic,Self-Employed,1
+928,52,Female,Rural,53276,2,313,249757,General,Self-Employed,0
+929,26,Male,Urban,41402,3,691,467876,Neurological,Salaried,1
+930,35,Male,Urban,99881,0,646,287268,Cancer,Unemployed,1
+931,32,Male,Semi-Urban,118300,3,609,313312,General,Salaried,1
+932,30,Male,Urban,34946,0,685,357268,General,Self-Employed,1
+933,55,Male,Urban,87698,2,508,216969,Orthopedic,Daily Wage,0
+934,33,Female,Urban,81933,1,656,196104,Cardiac,Daily Wage,1
+935,56,Male,Urban,30335,3,393,364941,Orthopedic,Salaried,1
+936,56,Male,Rural,53095,0,392,347438,Cardiac,Salaried,0
+937,22,Female,Semi-Urban,87930,2,639,487043,Cardiac,Daily Wage,0
+938,61,Female,Urban,35197,0,744,315660,General,Salaried,1
+939,43,Male,Urban,30010,0,321,200823,Cardiac,Self-Employed,1
+940,50,Female,Urban,32123,0,590,80373,Cancer,Salaried,1
+941,29,Male,Urban,95923,2,784,172026,Cancer,Self-Employed,1
+942,32,Male,Urban,10890,1,605,80270,Cancer,Daily Wage,0
+943,62,Female,Urban,101305,1,427,453602,General,Self-Employed,1
+944,58,Male,Urban,117162,1,572,282931,Orthopedic,Self-Employed,1
+945,35,Male,Semi-Urban,16026,0,741,245889,Neurological,Salaried,1
+946,51,Male,Urban,72925,2,802,115184,Cardiac,Self-Employed,1
+947,56,Male,Semi-Urban,76842,0,429,260765,Neurological,Salaried,1
+948,42,Male,Semi-Urban,41665,1,431,87879,Orthopedic,Salaried,1
+949,58,Male,Semi-Urban,17277,1,781,361741,Orthopedic,Salaried,1
+950,26,Female,Semi-Urban,50239,2,689,482348,General,Self-Employed,1
+951,40,Female,Semi-Urban,55664,0,624,53626,Cancer,Self-Employed,0
+952,35,Male,Rural,56008,3,368,135936,Cancer,Salaried,0
+953,47,Male,Semi-Urban,22683,3,747,284873,Orthopedic,Salaried,1
+954,25,Male,Semi-Urban,8670,1,827,131515,General,Salaried,1
+955,46,Male,Rural,97211,2,464,258137,General,Unemployed,0
+956,63,Female,Semi-Urban,25889,0,787,105390,Cardiac,Self-Employed,1
+957,46,Male,Urban,63612,0,725,459861,Cancer,Salaried,1
+958,39,Male,Urban,52535,1,564,273032,Orthopedic,Salaried,1
+959,61,Female,Urban,86542,1,641,104144,Neurological,Unemployed,1
+960,29,Female,Rural,62319,0,577,194454,Cancer,Salaried,0
+961,60,Female,Semi-Urban,100067,0,738,54025,Cardiac,Daily Wage,1
+962,61,Male,Rural,29639,1,456,486442,General,Salaried,0
+963,35,Male,Semi-Urban,72712,0,721,391524,Orthopedic,Unemployed,1
+964,53,Male,Urban,24633,3,550,304043,Cancer,Daily Wage,0
+965,59,Male,Urban,42660,1,829,168910,Neurological,Self-Employed,1
+966,54,Female,Semi-Urban,76975,0,626,146055,Cardiac,Salaried,1
+967,44,Female,Semi-Urban,40172,1,396,438333,Cardiac,Salaried,1
+968,36,Female,Rural,67197,2,812,255782,Cancer,Salaried,1
+969,54,Female,Urban,109158,1,515,446659,Neurological,Self-Employed,1
+970,46,Male,Semi-Urban,66847,1,431,333539,Cardiac,Salaried,1
+971,38,Female,Semi-Urban,19577,2,559,322869,Orthopedic,Salaried,0
+972,54,Male,Semi-Urban,85299,3,424,83461,Cardiac,Self-Employed,0
+973,23,Male,Semi-Urban,28176,0,381,308072,Neurological,Self-Employed,0
+974,35,Male,Semi-Urban,52386,2,582,91115,General,Salaried,1
+975,61,Male,Urban,71972,1,358,160084,General,Salaried,1
+976,61,Male,Semi-Urban,97791,0,843,395876,Cancer,Unemployed,1
+977,60,Female,Semi-Urban,49003,2,460,391701,Neurological,Self-Employed,0
+978,27,Male,Rural,27996,0,583,383404,Cardiac,Daily Wage,0
+979,27,Male,Rural,108922,0,405,209762,Cardiac,Self-Employed,0
+980,24,Male,Urban,94598,2,404,313551,General,Salaried,1
+981,28,Female,Urban,43931,0,738,123568,General,Salaried,1
+982,29,Male,Rural,43710,3,527,108560,Orthopedic,Salaried,0
+983,63,Female,Semi-Urban,42693,2,617,490556,General,Daily Wage,0
+984,36,Male,Rural,43740,3,763,198866,Orthopedic,Self-Employed,0
+985,50,Female,Urban,85241,1,771,200953,Cardiac,Salaried,1
+986,54,Male,Semi-Urban,116944,0,355,267364,Orthopedic,Unemployed,0
+987,51,Female,Rural,101583,1,312,286770,Orthopedic,Salaried,0
+988,60,Female,Rural,84502,1,739,276024,Cancer,Unemployed,1
+989,48,Male,Urban,25374,0,317,230775,General,Unemployed,0
+990,57,Male,Semi-Urban,84674,2,412,487570,Orthopedic,Salaried,1
+991,50,Male,Semi-Urban,89471,0,528,141288,Cardiac,Salaried,1
+992,59,Male,Urban,53913,1,470,431164,Neurological,Self-Employed,1
+993,54,Male,Semi-Urban,74025,1,594,411445,Orthopedic,Self-Employed,0
+994,58,Female,Semi-Urban,52516,2,488,299836,General,Self-Employed,0
+995,48,Male,Rural,95796,0,725,64390,Cancer,Unemployed,1
+996,54,Male,Urban,34069,1,378,268547,Cardiac,Daily Wage,0
+997,25,Male,Urban,64233,3,481,77307,Cancer,Salaried,1
+998,43,Male,Urban,92811,1,798,277436,Neurological,Salaried,1
+999,23,Female,Urban,67049,1,370,275121,Orthopedic,Self-Employed,1
+1000,31,Male,Urban,109820,2,547,301063,Orthopedic,Salaried,1

@@ -1,0 +1,63 @@
+{
+  "training_summary": {
+    "status": "Model trained",
+    "target_column": "approved",
+    "feature_columns": [
+      "age",
+      "gender",
+      "region",
+      "income_monthly",
+      "existing_loans",
+      "credit_score",
+      "loan_amount_requested",
+      "medical_condition",
+      "employment_type"
+    ],
+    "training_rows": 1000,
+    "accuracy": 1.0
+  },
+  "dataset_summary": {
+    "total_rows": 1000,
+    "columns": [
+      "applicant_id",
+      "age",
+      "gender",
+      "region",
+      "income_monthly",
+      "existing_loans",
+      "credit_score",
+      "loan_amount_requested",
+      "medical_condition",
+      "employment_type",
+      "approved"
+    ],
+    "approval_rate": 0.603,
+    "approval_by_region": {
+      "Rural": 0.217,
+      "Semi-Urban": 0.541,
+      "Urban": 0.805
+    },
+    "approval_by_employment": {
+      "Daily Wage": 0.183,
+      "Salaried": 0.8,
+      "Self-Employed": 0.596,
+      "Unemployed": 0.628
+    },
+    "approval_by_gender": {
+      "Female": 0.602,
+      "Male": 0.604
+    }
+  },
+  "investigation_report": "## \ud83d\udd0d DATASET SUMMARY\nThe dataset consists of 1000 rows and 11 columns, with an overall approval rate of 0.603. The columns include applicant_id, age, gender, region, income_monthly, existing_loans, credit_score, loan_amount_requested, medical_condition, employment_type, and approved.\n\n## \ud83d\udea8 BIAS FINDINGS\nThe investigation found bias in the following groups:\n- Region: Rural applicants have a significantly lower approval rate (0.217) compared to Urban (0.805) and Semi-Urban (0.541) applicants.\n- Employment Type: Daily Wage applicants have a lower approval rate (0.183) compared to Salaried (0.8), Self-Employed (0.596), and Unemployed (0.628) applicants.\n- Gender: Female applicants have a slightly lower approval rate (0.602) compared to Male (0.604) applicants, but the difference is not significant.\n\n## \ud83d\udc65 MOST AFFECTED GROUPS\nThe most affected groups are:\n- Rural applicants: 207 applicants with an approval rate of 0.217.\n- Daily Wage applicants: 208 applicants with an approval rate of 0.183.\n\n## \ud83d\udd2c ROOT CAUSE\nThe root cause of the bias is likely due to the model learning historical patterns that discriminate against certain groups. The feature importance shows that existing_loans and credit_score have high importance, which may be proxy variables for region and employment type.\n\n## \ud83d\udd27 RECOMMENDATIONS\nTo fix the bias, the following steps can be taken:\n- Remove or reweight the existing_loans and credit_score features to reduce their importance.\n- Collect more data on Rural and Daily Wage applicants to increase their representation in the dataset.\n- Consider using techniques such as data augmentation or transfer learning to improve the model's performance on underrepresented groups.\n\n## \u2696\ufe0f FAIRNESS VERDICT\nThe model is biased against Rural and Daily Wage applicants, which can lead to unfair outcomes. To ensure fairness, it is essential to address the bias and implement measures to prevent discrimination.",
+  "feature_names": [
+    "age",
+    "gender",
+    "region",
+    "income_monthly",
+    "existing_loans",
+    "credit_score",
+    "loan_amount_requested",
+    "medical_condition",
+    "employment_type"
+  ]
+}

@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import axios from 'axios'
 import { EmptyState, PageHero, Panel, SectionLabel, StatCard } from '../components/ui'
 
-const API = 'http://localhost:8000'
+const API = import.meta.env.VITE_API_URL || 'http://localhost:8000'
 
 const FLAG_COLORS = {
   GREEN: '#7ec29a',

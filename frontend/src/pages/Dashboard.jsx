@@ -3,7 +3,7 @@ import axios from 'axios'
 import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, Cell } from 'recharts'
 import { LoadingState, PageHero, Panel, SectionLabel, StatCard } from '../components/ui'
 
-const API = 'http://localhost:8000'
+const API = import.meta.env.VITE_API_URL || 'http://localhost:8000'
 
 const SEV = {
   CRITICAL: { color: '#f08b92', bg: 'rgba(240,139,146,0.10)' },
@@ -41,7 +41,7 @@ export default function Dashboard() {
     return (
       <Panel tone="danger" className="state-card state-card--compact">
         <strong>Backend not connected</strong>
-        <p>Make sure the API is running on localhost:8000.</p>
+        <p>Make sure the API is running and reachable.</p>
       </Panel>
     )
   }

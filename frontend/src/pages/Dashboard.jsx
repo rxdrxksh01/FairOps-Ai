@@ -12,6 +12,45 @@ const SEV = {
   LOW:      { color: '#7ec29a', bg: 'rgba(126,194,154,0.10)' },
 }
 
+function ReportView({ text }) {
+  if (!text) return null
+
+  const blocks = text
+    .split(/\n(?=## )/)
+    .map((block) => block.trim())
+    .filter(Boolean)
+
+  return (
+    <div className="report-sections">
+      {blocks.map((block, idx) => {
+        const lines = block.split('\n')
+        const rawHeading = lines[0]?.startsWith('## ') ? lines[0].replace('## ', '').trim() : 'Report'
+        const heading = rawHeading.replace(/[^\x20-\x7E]/g, '').trim() || rawHeading
+        const contentLines = lines.slice(1).filter((line) => line.trim())
+        const listItems = contentLines.filter((line) => line.trim().startsWith('- '))
+        const bodyText = contentLines
+          .filter((line) => !line.trim().startsWith('- '))
+          .join('\n')
+          .trim()
+
+        return (
+          <article key={`${heading}-${idx}`} className="report-block">
+            <h3 className="report-heading">{heading}</h3>
+            {bodyText ? <p className="report-body">{bodyText}</p> : null}
+            {listItems.length ? (
+              <ul className="report-list">
+                {listItems.map((item, i) => (
+                  <li key={`${idx}-${i}`}>{item.replace(/^- /, '').trim()}</li>
+                ))}
+              </ul>
+            ) : null}
+          </article>
+        )
+      })}
+    </div>
+  )
+}
+
 export default function Dashboard() {
   const [info, setInfo] = useState(null)
   const [metrics, setMetrics] = useState(null)
@@ -204,7 +243,7 @@ export default function Dashboard() {
       {/* ── Investigation Narrative ── */}
       <Panel className="report-panel">
         <SectionLabel>Investigation narrative</SectionLabel>
-        <p className="report-copy">{investigation_report}</p>
+        <ReportView text={investigation_report} />
       </Panel>
     </div>
   )

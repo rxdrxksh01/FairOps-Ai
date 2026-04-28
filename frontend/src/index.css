@@ -608,10 +608,42 @@ strong {
   min-height: 18rem;
 }
 
-.report-copy {
-  margin: 0.9rem 0 0;
+.report-sections {
+  margin-top: 1rem;
+  display: grid;
+  gap: 0.95rem;
+}
+
+.report-block {
+  border: 1px solid var(--border);
+  background: var(--surface-strong);
+  border-radius: 1rem;
+  padding: 1rem 1.1rem;
+  display: grid;
+  gap: 0.55rem;
+}
+
+.report-heading {
+  margin: 0;
+  font-size: 0.78rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--accent);
+}
+
+.report-body {
+  margin: 0;
+  color: var(--text);
+  line-height: 1.6;
+}
+
+.report-list {
+  margin: 0;
+  padding-left: 1.1rem;
   color: var(--text-soft);
-  white-space: pre-wrap;
+  display: grid;
+  gap: 0.35rem;
 }
 
 .predict-layout {

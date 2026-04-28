@@ -3,6 +3,7 @@ import sys
 import json
 import pickle
 from langgraph.prebuilt import create_react_agent
+from langchain_groq import ChatGroq
 
 sys.path.insert(0, os.path.dirname(__file__))
 from tools import ALL_TOOLS
@@ -172,11 +173,10 @@ OUTPUT FORMAT — ALWAYS USE THIS EXACTLY
 # Agent Factory
 # ─────────────────────────────────────────────
 
-from langchain_google_genai import ChatGoogleGenerativeAI
 def _get_agent(findings: dict):
-    llm = ChatGoogleGenerativeAI(
-        model="gemini-2.0-flash",
-        google_api_key=os.environ.get("GEMINI_API_KEY"),
+    llm = ChatGroq(
+        model="llama-3.3-70b-versatile",
+        api_key=os.environ.get("GROQ_API_KEY"),
         temperature=0,
     )
     agent = create_react_agent(

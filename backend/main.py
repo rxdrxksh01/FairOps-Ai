@@ -96,7 +96,7 @@ def health():
     return {
         "status": "ok",
         "artifacts_loaded": bool(_findings),
-        "gemini_key_set": bool(os.environ.get("GEMINI_API_KEY")),
+        "groq_key_set": bool(os.environ.get("GROQ_API_KEY")),
         "fairness_engine": "active",
     }
 

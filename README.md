@@ -120,7 +120,7 @@ pip install -r requirements.txt
 Create `backend/.env`:
 
 ```bash
-GROQ_API_KEY=your_key_here
+GEMINI_API_KEY=your_key_here
 ```
 
 ## 2) Frontend setup
@@ -179,7 +179,7 @@ This should generate:
   - Confirm files listed above exist
 
 - Predict route failing with LLM error:
-  - Verify `GROQ_API_KEY` is valid
+  - Verify `GEMINI_API_KEY` is valid
   - Restart backend after editing `.env`
 
 - Audit list empty:

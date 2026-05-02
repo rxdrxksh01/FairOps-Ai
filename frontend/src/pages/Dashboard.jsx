@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import axios from 'axios'
 import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, Cell } from 'recharts'
-import { LoadingState, PageHero, Panel, SectionLabel, StatCard } from '../components/ui'
+import { LoadingState, Panel, SectionLabel } from '../components/ui'
 
 const API = import.meta.env.VITE_API_URL || 'http://localhost:8000'
 
@@ -95,52 +95,49 @@ export default function Dashboard() {
   )
 
   const overall = metrics?.overall_severity || 'Unknown'
-  const sev = SEV[overall] || SEV.LOW
+  const reviewQueue = [
+    { label: 'Worst disparate impact', value: metrics?.worst_disparate_impact || 'n/a' },
+    { label: 'Severity', value: overall },
+    { label: 'Action', value: overall === 'LOW' ? 'Monitor' : 'Review cases' },
+  ]
 
   return (
-    <div className="page-stack">
-      <PageHero
-        eyebrow="Investigation report"
-        title="Dataset fairness at a glance."
-        description="Headline numbers, approval patterns, and formal bias metrics — everything a reviewer needs before testing individual applicants."
-        aside={
-          <div className="mini-metrics">
-            <div>
-              <span>Rows</span>
-              <strong>{dataset_summary.total_rows?.toLocaleString()}</strong>
-            </div>
-            <div>
-              <span>Approval</span>
-              <strong>{Math.round((dataset_summary.approval_rate || 0) * 100)}%</strong>
-            </div>
-          </div>
-        }
-      />
-
-      {/* ── Headline Stats ── */}
-      <section className="stats-grid">
-        <StatCard
-          label="Total applicants"
-          value={dataset_summary.total_rows?.toLocaleString() || '0'}
-          hint="Included in the current snapshot."
-          accent="clear"
-        />
-        <StatCard
-          label="Overall approval"
-          value={`${Math.round((dataset_summary.approval_rate || 0) * 100)}%`}
-          hint="Baseline before comparing groups."
-          accent="soft"
-        />
-        <StatCard
-          label="Bias status"
-          value={overall}
-          hint={metrics ? `Disparate impact: ${metrics.worst_disparate_impact}` : ''}
-          accent="warm"
-        />
+    <div className="dashboard-page">
+      <section className="dashboard-header">
+        <div>
+          <p className="eyebrow">Fairness dashboard</p>
+          <h2>Portfolio overview</h2>
+          <p>Track approval patterns, exposed groups, and fairness metrics before individual cases are reviewed.</p>
+        </div>
+        <div className={`severity-badge severity-badge--${overall.toLowerCase()}`}>
+          {overall}
+        </div>
       </section>
 
-      {/* ── Approval Charts ── */}
-      <section className="chart-grid">
+      <section className="kpi-strip">
+        <div className="kpi-card">
+          <span>Total applicants</span>
+          <strong>{dataset_summary.total_rows?.toLocaleString() || '0'}</strong>
+          <p>Current dataset</p>
+        </div>
+        <div className="kpi-card">
+          <span>Approval rate</span>
+          <strong>{Math.round((dataset_summary.approval_rate || 0) * 100)}%</strong>
+          <p>Portfolio baseline</p>
+        </div>
+        <div className="kpi-card">
+          <span>Bias status</span>
+          <strong>{overall}</strong>
+          <p>{metrics ? `DI ratio ${metrics.worst_disparate_impact}` : 'Awaiting metrics'}</p>
+        </div>
+        <div className="kpi-card kpi-card--accent">
+          <span>Next step</span>
+          <strong>{overall === 'LOW' ? 'Monitor' : 'Review'}</strong>
+          <p>Use prediction page for case checks</p>
+        </div>
+      </section>
+
+      <section className="dashboard-grid">
         <Panel>
           <SectionLabel>Approval by region</SectionLabel>
           <div className="chart-frame">
@@ -184,14 +181,25 @@ export default function Dashboard() {
             </ResponsiveContainer>
           </div>
         </Panel>
+
+        <Panel className="review-panel">
+          <SectionLabel>Review queue</SectionLabel>
+          <div className="review-list">
+            {reviewQueue.map((item) => (
+              <div key={item.label} className="review-list__row">
+                <span>{item.label}</span>
+                <strong>{item.value}</strong>
+              </div>
+            ))}
+          </div>
+        </Panel>
       </section>
 
-      {/* ── Fairness Scorecard — clean summary only ── */}
       {metrics ? (
         <Panel>
           <SectionLabel>Fairness scorecard</SectionLabel>
           <p className="panel-subtitle">
-            Formal metrics per demographic dimension.
+            Formal metrics by demographic dimension.
           </p>
 
           <div className="scorecard-grid">
@@ -240,7 +248,6 @@ export default function Dashboard() {
         </Panel>
       ) : null}
 
-      {/* ── Investigation Narrative ── */}
       <Panel className="report-panel">
         <SectionLabel>Investigation narrative</SectionLabel>
         <ReportView text={investigation_report} />

@@ -5,10 +5,9 @@ import AuditTrail from './pages/AuditTrail'
 import Landing from './pages/Landing'
 
 const WORK_NAV = [
-  { to: '/', label: 'Landing', eyebrow: 'Overview' },
-  { to: '/insights', label: 'Dashboard', eyebrow: 'Dataset pulse' },
-  { to: '/simulate', label: 'Predict loan', eyebrow: 'Applicant testing' },
-  { to: '/audit', label: 'Audit trail', eyebrow: 'Decision history' },
+  { to: '/insights', label: 'Dashboard', eyebrow: 'Overview' },
+  { to: '/simulate', label: 'Predict', eyebrow: 'Case review' },
+  { to: '/audit', label: 'Audit trail', eyebrow: 'History' },
 ]
 
 export default function App() {
@@ -35,7 +34,7 @@ function WorkLayout() {
           <span className="brand__mark">F</span>
           <span>
             <strong>FairCare AI</strong>
-            <em>AI-powered loan decisions</em>
+            <em>Loan fairness operations</em>
           </span>
         </NavLink>
 
@@ -43,25 +42,30 @@ function WorkLayout() {
           <p className="sidebar__label">Workspace</p>
           <nav className="sidebar__nav">
             {WORK_NAV.map(({ to, label, eyebrow }) => (
-              <NavLink key={to} className="nav-card" to={to} end={to === '/'}>
-                <span className="nav-card__eyebrow">{eyebrow}</span>
+              <NavLink key={to} className="nav-card" to={to}>
                 <span className="nav-card__title">{label}</span>
+                <span className="nav-card__eyebrow">{eyebrow}</span>
               </NavLink>
             ))}
           </nav>
         </div>
 
         <div className="sidebar__callout">
-          <p>AI model status</p>
-          <strong>Operational and ready for bias-aware lending review.</strong>
+          <p>Model status</p>
+          <strong>Ready for review</strong>
+          <span>API-backed decisions and audit history.</span>
         </div>
       </aside>
 
       <div className="workspace">
         <header className="topbar">
           <div>
-            <p className="topbar__eyebrow">FairCare AI workspace</p>
-            <h1>Bias-aware lending operations</h1>
+            <p className="topbar__eyebrow">FairCare AI</p>
+            <h1>Decision operations</h1>
+          </div>
+          <div className="topbar__status">
+            <span />
+            Operational
           </div>
         </header>
 

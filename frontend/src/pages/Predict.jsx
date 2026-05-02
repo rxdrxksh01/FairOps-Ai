@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import axios from 'axios'
-import { PageHero, Panel, SectionLabel } from '../components/ui'
+import { Panel, SectionLabel } from '../components/ui'
 
 const API = import.meta.env.VITE_API_URL || 'http://localhost:8000'
 
@@ -34,7 +34,6 @@ const FLAG_MAP = {
   RED:    { icon: '⚑', label: 'Needs human review', color: '#f08b92', bg: 'rgba(240,139,146,0.08)', border: 'rgba(240,139,146,0.22)' },
 }
 
-/* ── tiny markdown-ish renderer for ## headings + paragraphs ── */
 function AnalysisView({ text }) {
   if (!text) return null
   const blocks = text.split(/\n(?=## )/)
@@ -81,15 +80,20 @@ export default function Predict() {
   const flag = f ? FLAG_MAP[f.policy_flag?.level] || FLAG_MAP.GREEN : null
 
   return (
-    <div className="page-stack">
-      <PageHero
-        eyebrow="Applicant simulation"
-        title="Test an applicant with bias-aware review."
-        description="Enter a profile, run the fairness-aware model, and review the outcome with full explanation."
-      />
+    <div className="case-page">
+      <section className="case-header">
+        <div>
+          <p className="eyebrow">Applicant prediction</p>
+          <h2>Case review</h2>
+          <p>Enter applicant details, run the model, and review the fairness explanation before a decision is used.</p>
+        </div>
+        <div className="case-header__meta">
+          <span>Default profile</span>
+          <strong>Mid-risk rural applicant</strong>
+        </div>
+      </section>
 
       <section className="predict-layout">
-        {/* ── Form ── */}
         <Panel className="predict-form-panel">
           <SectionLabel>Applicant details</SectionLabel>
           <div className="form-grid">
@@ -115,7 +119,6 @@ export default function Predict() {
           </button>
         </Panel>
 
-        {/* ── Results ── */}
         <div className="result-stack">
           {loading ? (
             <Panel className="state-card">
@@ -134,7 +137,6 @@ export default function Predict() {
 
           {result ? (
             <>
-              {/* ── Hero decision card ── */}
               <div className={`verdict-card verdict-card--${result.decision?.toLowerCase() || 'denied'}`}>
                 <div className="verdict-card__top">
                   <span className="verdict-card__label">Decision</span>
@@ -148,7 +150,6 @@ export default function Predict() {
                 ) : null}
               </div>
 
-              {/* ── Policy flag pill ── */}
               {flag ? (
                 <div className="flag-pill" style={{ background: flag.bg, borderColor: flag.border }}>
                   <span className="flag-pill__icon" style={{ color: flag.color }}>{flag.icon}</span>
@@ -159,7 +160,6 @@ export default function Predict() {
                 </div>
               ) : null}
 
-              {/* ── Mitigation note (only if applied) ── */}
               {f?.mitigation_applied ? (
                 <div className="mitigation-note">
                   <span className="mitigation-note__icon">⚖</span>
@@ -174,7 +174,6 @@ export default function Predict() {
                 </div>
               ) : null}
 
-              {/* ── Analysis ── */}
               <Panel>
                 <SectionLabel>Full analysis</SectionLabel>
                 <AnalysisView text={result.analysis} />
